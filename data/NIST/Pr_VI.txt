@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"5s2.5p6"	"1S"	"0"	1	" 0"	
+"Pr VII (4f.5s2.5p4*)"	"Limit"	"---"		"(663000)"	

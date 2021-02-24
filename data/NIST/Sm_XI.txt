@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"4f4.5s2"	""	""		" 0"	
+"Sm XII (4f3.5s2*)"	"Limit"	"---"		"(1445000)"	

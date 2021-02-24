@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"4f11"	"*"	""		" 0"	
+"Hf XVII (4f10)"	"Limit"	"---"		"(2892000)"	

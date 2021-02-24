@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"3p6.3d7"	"4F"	"9/2"	10	" 0"	
+"Br XII (3d6 5D<4>)"	"Limit"	"---"		"(2428000)"	

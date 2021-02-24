@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"6p4"	"3P"	"2"	5	" 0"	
+"U X (6p3 4S*<3/2>)"	"Limit"	"---"		"(936000)"	

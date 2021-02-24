@@ -1,0 +1,4 @@
+Configuration	Term	J	g	Level (cm-1)
+"3p6.3d2"	"3F"	"2"	5	" 0"	
+"3p6.3d2"	"3F"	"3"	7	" 28135"	
+"Mo XXIV (3d 2D<3/2>)"	"Limit"	"---"		"(8219000)"	

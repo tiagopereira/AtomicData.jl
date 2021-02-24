@@ -1,0 +1,4 @@
+Configuration	Term	J	g	Level (cm-1)
+"3s2.3p2"	"3P"	"0"	1	" 0"	
+"3s2.3p2"	"3P"	"2"	5	" 58400.+k"	
+"As XXI (3p 2P*<1/2>)"	"Limit"	"---"		"[6242700]"	

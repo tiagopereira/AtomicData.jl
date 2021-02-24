@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"5f3.6d.7s2"	"5L*"	"6"	13	" 0"	
+"U II (5f3.7s2 4I*<9/2>)"	"Limit"	"---"		" 49958.4"	

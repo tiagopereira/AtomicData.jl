@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"5s2.4f2"	""	""		" 0"	
+"Nd XII (5s2.4f 2F*<5/2>)"	"Limit"	"---"		"(1359000)"	

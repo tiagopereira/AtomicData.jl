@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"5s2.5p2"	"3P"	"0"	1	" 0"	
+"La IX (5s2.5p 2P*<1/2>)"	"Limit"	"---"		"(847000)"	

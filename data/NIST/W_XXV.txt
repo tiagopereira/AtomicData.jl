@@ -1,0 +1,4 @@
+Configuration	Term	J	g	Level (cm-1)
+"4d10.4f4"	"5I"	"4"	9	" 0"	
+"4d10.4f3.(4I*).5s"	"5I*"	"4"	9	"(780000)"	
+"W XXVI (4f3 4I*<9/2>)"	"Limit"	"---"		"[5921000]"	

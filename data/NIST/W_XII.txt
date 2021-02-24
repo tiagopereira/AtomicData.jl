@@ -1,0 +1,4 @@
+Configuration	Term	J	g	Level (cm-1)
+"4f13.5p2"	"4F*"	"7/2"	8	" 0?"	
+"4f14.5p"	"2P*"	"1/2"	2	"(11000)?"	
+"W XIII (4f14 1S<0>)"	"Limit"	"---"		"[1868000]"	

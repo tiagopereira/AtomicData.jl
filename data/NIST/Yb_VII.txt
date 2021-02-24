@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"4f12.5p4"	""	""	17	" 0"	
+"Yb VIII (4f12.5p3*)"	"Limit"	"---"		"(946000)"	

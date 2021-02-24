@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"3d4"	"5D"	"0"	1	" 0"	
+"Zn X (3d3 4F<3/2>)"	"Limit"	"---"		"[1637000]"	

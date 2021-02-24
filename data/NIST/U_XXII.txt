@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"5d3"	"4F"	"3/2"	4	" 0"	
+"U XXIII (5d2 3F<2>)"	"Limit"	"---"		"(4234000)"	

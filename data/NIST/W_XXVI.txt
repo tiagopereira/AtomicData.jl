@@ -1,0 +1,4 @@
+Configuration	Term	J	g	Level (cm-1)
+"4d10.4f3"	"4I*"	"9/2"	10	" 0"	
+"4d10.4f2.(3H).5s"	"4H"	"7/2"	8	"(910000)"	
+"W XXVII (4f2 3H<4>)"	"Limit"	"---"		"[6327000]"	

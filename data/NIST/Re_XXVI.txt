@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"4f4"	"5I"	"4"	9	" 0"	
+"Re XXVII (4f3 4I*<9/2>)"	"Limit"	"---"		"(6540000)"	

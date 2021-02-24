@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"3p4"	"3P"	"2"	5	" 0"	
+"Zr XXVI (3p3 4S*<3/2>)"	"Limit"	"---"		"[9722500]"	

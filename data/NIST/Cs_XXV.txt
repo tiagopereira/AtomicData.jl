@@ -1,0 +1,4 @@
+Configuration	Term	J	g	Level (cm-1)
+"4p"	"2P*"	"1/2"	2	" 0"	
+"4p"	"2P*"	"3/2"	4	"(154985)"	
+"Cs XXVI (4s2 1S<0>)"	"Limit"	"---"		"(6380000)"	

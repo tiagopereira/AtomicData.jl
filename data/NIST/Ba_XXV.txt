@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"3d10.4s2.4p2"	"3P"	"0"	1	" 0"	
+"Ba XXVI (4p 2P*<1/2>)"	"Limit"	"---"		"(6525000)"	

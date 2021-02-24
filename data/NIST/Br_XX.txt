@@ -1,0 +1,4 @@
+Configuration	Term	J	g	Level (cm-1)
+"3s2.3p4"	"3P"	"2"	5	" 0"	
+"3s2.3p4"	"1D"	"2"	5	" 99300.+r"	
+"Br XXI (3p3 4S*<3/2>)"	"Limit"	"---"		"[6531300]"	

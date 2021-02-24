@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"4f13.5s"	"*"	""		" 0"	
+"Pb XXIV (4f13 2F*<7/2>)"	"Limit"	"---"		"(5210000)"	

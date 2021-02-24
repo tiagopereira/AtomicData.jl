@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"4f2"	"3H"	"4"	9	" 0"	
+"Hf XXVI (4f 2F*<5/2>)"	"Limit"	"---"		"(5890000)"	

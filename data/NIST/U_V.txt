@@ -1,0 +1,3 @@
+Configuration	Term	J	g	Level (cm-1)
+"5f2.6p6"	"3H"	"4"	9	" 0"	
+"U VI (5f.6p6 2F*<5/2>)"	"Limit"	"---"		"(371000)"	
