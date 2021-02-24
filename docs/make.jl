@@ -6,11 +6,11 @@ DocMeta.setdocmeta!(AtomicData, :DocTestSetup, :(using AtomicData); recursive=tr
 makedocs(;
     modules=[AtomicData],
     authors="Tiago M. D. Pereira",
-    repo="https://github.com/tiagomdp/AtomicData.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/tiagopereira/AtomicData.jl/blob/{commit}{path}#{line}",
     sitename="AtomicData.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://tiagomdp.github.io/AtomicData.jl",
+        canonical="https://tiagopereira.github.io/AtomicData.jl",
         assets=String[],
     ),
     pages=[
@@ -19,5 +19,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/tiagomdp/AtomicData.jl",
+    repo="github.com/tiagopereira/AtomicData.jl",
 )
