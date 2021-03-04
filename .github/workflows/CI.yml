@@ -11,7 +11,7 @@ jobs:
       matrix:
         version:
           - '1.4'
-          - '1.5'
+          - '1'
           - 'nightly'
         os:
           - ubuntu-latest
@@ -19,6 +19,14 @@ jobs:
           - windows-latest
         arch:
           - x64
+          - x86
+        exclude: 
+          # Test 1.4 only on Linux
+          - {os: 'windows-latest', version: '1.4'}
+          - {os: 'macOS-latest', version: '1.4'}
+          # Test x86 only on Linux
+          - {os: 'windows-latest', arch: 'x86'}
+          - {os: 'macOS-latest', arch: 'x86'}
     steps:
       - uses: actions/checkout@v2
       - uses: julia-actions/setup-julia@v1
@@ -30,10 +38,11 @@ jobs:
           cache-name: cache-artifacts
         with:
           path: ~/.julia/artifacts
-          key: ${{ runner.os }}-test-${{ env.cache-name }}-${{ hashFiles('**/Project.toml') }}
+          key: ${{ runner.os }}-${{ matrix.arch }}-test-${{ env.cache-name }}-${{ hashFiles('**/Project.toml') }}
           restore-keys: |
-            ${{ runner.os }}-test-${{ env.cache-name }}-
-            ${{ runner.os }}-test-
+            ${{ runner.os }}-${{ matrix.arch }}-test-${{ env.cache-name }}-
+            ${{ runner.os }}-${{ matrix.arch }}-test-
+            ${{ runner.os }}-${{ matrix.arch }}-
             ${{ runner.os }}-
       - uses: julia-actions/julia-buildpkg@v1
       - uses: julia-actions/julia-runtest@v1
