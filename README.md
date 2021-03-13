@@ -1,5 +1,5 @@
 [![Build Status](https://github.com/tiagopereira/AtomicData.jl/workflows/CI/badge.svg)](https://github.com/tiagopereira/AtomicData.jl/actions)
-[![Coverage](https://codecov.io/gh/tiagopereira/AtomicData.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/tiagopereira/AtomicData.jl)
+[![Coverage](https://codecov.io/gh/tiagopereira/AtomicData.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/tiagopereira/AtomicData.jl)
 
 # AtomicData.jl
 
