@@ -1,5 +1,4 @@
 using AtomicData
-using RomanNumerals
 using Test
 using Unitful
 import PhysicalConstants.CODATA2018: h, k_B, c_0
@@ -8,7 +7,7 @@ import PhysicalConstants.CODATA2018: h, k_B, c_0
 @testset "Read utils" begin
     MgII = get_atomic_stage("Mg", "II")
     Mg2 = get_atomic_stage("Mg", 2)
-    Mg2rm = get_atomic_stage("Mg", RomanNumeral(2))
+    Mg2rm = get_atomic_stage("Mg", AtomicData.RomanNumeral(2))
     @test MgII.g == Mg2.g == Mg2rm.g
     @test MgII.χ == Mg2.χ == Mg2rm.χ
     # Reading all neutral stages to check for parsing errors

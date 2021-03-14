@@ -68,14 +68,13 @@ indicate interpolated or theoretical values. Converts from wavenumber
 to energy.
 """
 function NIST_wavenumber_to_energy(wavenum)
-    to_remove = ["[", "]", "(", ")", "?", "a", "l", "x", "y", "z", 
+    to_remove = ["[", "]", "(", ")", "?", "a", "l", "x", "y", "z",
                  "u", "+", "&dagger;", "&dgger;"]
     if typeof(wavenum) in [String, SubString{String}]
         for suffix in to_remove
             wavenum = replace(wavenum, suffix => "")
         end
         wn = parse(Float64, wavenum)u"cm^-1"
-        #wn = parse(Float64, strip(wavenum, to_remove))u"cm^-1"
     elseif typeof(wavenum) <: Real
         wn = convert(Float64, wavenum)u"cm^-1"
     else
@@ -83,4 +82,3 @@ function NIST_wavenumber_to_energy(wavenum)
     end
     return (h * c_0 * wn) |> u"J"
 end
-
