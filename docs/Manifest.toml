@@ -7,8 +7,8 @@ uuid = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 version = "3.2.0"
 
 [[AtomicData]]
-deps = ["DelimitedFiles", "Interpolations", "PeriodicTable", "PhysicalConstants", "RomanNumerals", "Unitful"]
-path = ".."
+deps = ["DelimitedFiles", "Interpolations", "Logging", "PeriodicTable", "PhysicalConstants", "Unitful"]
+path = "/Users/tiago/codes/AtomicData"
 uuid = "6b77412b-f4b7-4495-8b9c-778517285205"
 version = "0.1.0"
 
@@ -26,12 +26,6 @@ deps = ["LinearAlgebra"]
 git-tree-sha1 = "f641eb0a4f00c343bbc32346e1217b86f3ce9dad"
 uuid = "49dc2e85-a5d0-5ad3-a950-438e2897f1b9"
 version = "0.5.1"
-
-[[Compat]]
-deps = ["Base64", "Dates", "DelimitedFiles", "Distributed", "InteractiveUtils", "LibGit2", "Libdl", "LinearAlgebra", "Markdown", "Mmap", "Pkg", "Printf", "REPL", "Random", "Serialization", "SharedArrays", "Sockets", "SparseArrays", "Statistics", "Test", "UUIDs", "Unicode"]
-git-tree-sha1 = "b0b7e8a0d054fada22b64095b46469627a138943"
-uuid = "34da2185-b29b-5c13-b0c7-acf172513d20"
-version = "2.2.1"
 
 [[ConstructionBase]]
 deps = ["LinearAlgebra"]
@@ -140,11 +134,6 @@ version = "0.2.1"
 deps = ["Dates", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "REPL", "Random", "SHA", "UUIDs"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-[[Primes]]
-git-tree-sha1 = "afccf037da52fa596223e5a0e331ff752e0e845c"
-uuid = "27ebfcd6-29c5-5fa9-bf4b-fb8fc14df3ae"
-version = "0.5.0"
-
 [[Printf]]
 deps = ["Unicode"]
 uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
@@ -172,12 +161,6 @@ deps = ["UUIDs"]
 git-tree-sha1 = "cfbac6c1ed70c002ec6361e7fd334f02820d6419"
 uuid = "ae029012-a4dd-5104-9daa-d747884805df"
 version = "1.1.2"
-
-[[RomanNumerals]]
-deps = ["Compat", "Primes"]
-git-tree-sha1 = "06e621d4a9eda8d09eab8aade41e85cb93cadae9"
-uuid = "37834d88-8936-577c-80c9-1066ecf66832"
-version = "0.3.1"
 
 [[Roots]]
 deps = ["Printf"]
