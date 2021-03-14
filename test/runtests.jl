@@ -49,3 +49,11 @@ end
     @test_throws ErrorException partition_function_interpolator("Al", "I", temp;
                                                                 source="MY_SOURCE")
 end
+
+@testset "Roman Numerals" begin
+    @test convert(Bool, AtomicData.RomanNumeral(10)) == true
+    @test convert(Float64, AtomicData.RomanNumeral("II")) == 2.0
+    @test promote(AtomicData.RomanNumeral("V"), 1) == (5, 1)
+    @test length(AtomicData.RomanNumeral("X")) == 1
+    @test hash(AtomicData.RomanNumeral("L")) == xor(hash("L"), hash(50))
+end
