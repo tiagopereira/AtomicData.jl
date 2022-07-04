@@ -82,3 +82,18 @@ function NIST_wavenumber_to_energy(wavenum)
     end
     return (h * c_0 * wn) |> u"J"
 end
+
+
+"""
+Reads abundance file and converts to a dictionary with symbols for element names.
+Also converts abundances to linear scale, from usual log scale (relative to hydrogen).
+"""
+function read_abundances(abundance_file)
+    data = YAML.load_file(abundance_file)["abundances"]["data"]
+    result = Dict()
+    for (Z, el, abund, _) in data
+        linear_abundance = 10 ^ (abund - 12)
+        result[Symbol(el)] = linear_abundance
+    end
+    return result
+end

@@ -57,3 +57,16 @@ end
     @test length(AtomicData.RomanNumeral("X")) == 1
     @test hash(AtomicData.RomanNumeral("L")) == xor(hash("L"), hash(50))
 end
+
+@testset "Abundances" begin
+    aag2021 = get_solar_abundances(source="AAG2021")
+    ags2009 = get_solar_abundances(source="Asplund2009")
+    gs1998 = get_solar_abundances(source="GS1998")
+    @test aag2021[:H] == 1
+    @test ags2009[:H] == 1
+    @test gs1998[:H] == 1
+    @test log10(aag2021[:O]) + 12 ≈ 8.69
+    @test log10(ags2009[:O]) + 12 ≈ 8.69
+    @test log10(gs1998[:O]) + 12 ≈ 8.83
+    @test_throws ErrorException get_solar_abundances(source="my_source")
+end
