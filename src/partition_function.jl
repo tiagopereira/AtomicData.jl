@@ -40,14 +40,14 @@ Returns an interpolator for the partition function of a given atomic stage.
 - `temperatures`: array with temperatures used to build the interpolation table
 
 # Returns
-- `interpolator`: linear interpolator object that takes temperature to give 
+- `interpolator`: linear interpolator object that takes temperature to give
   partition function
 """
 function partition_function_interpolator(
     atom::AtomicStage, temperatures::Array{<: Unitful.Temperature},
 )
     pfunc = partition_function.(Ref(atom), temperatures)
-    return LinearInterpolation(temperatures, pfunc, extrapolation_bc=Line())
+    return linear_interpolation(temperatures, pfunc, extrapolation_bc=Line())
 end
 
 function partition_function_interpolator(

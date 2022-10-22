@@ -87,6 +87,8 @@ end
 """
 Reads abundance file and converts to a dictionary with symbols for element names.
 Also converts abundances to linear scale, from usual log scale (relative to hydrogen).
+Source file must be YAML formatted, following the format of files under
+data/solar_abundances/*yaml
 """
 function read_abundances(abundance_file)
     data = YAML.load_file(abundance_file)["abundances"]["data"]
