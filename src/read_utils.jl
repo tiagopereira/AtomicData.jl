@@ -99,3 +99,9 @@ function read_abundances(abundance_file)
     end
     return result
 end
+
+
+"""
+Returns directory with model atom files.
+"""
+get_atom_dir() = joinpath(@__DIR__, "..", "data", "atoms")
