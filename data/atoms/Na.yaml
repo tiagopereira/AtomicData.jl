@@ -1,0 +1,449 @@
+%YAML 1.1
+---
+# Automatically converted to YAML from Na.atom using helita.sim.rh15d.AtomFile.
+
+element:
+  symbol: Na
+
+atomic_levels:
+  lev1: {energy: {value: 0.0, unit: cm^-1}, g: 2, stage: 1, label: NA I 2P6 3S 2SE}
+  lev2: {energy: {value: 16967.605, unit: cm^-1}, g: 6, stage: 1, label: NA I 2P6 3P 2PO}
+  lev3: {energy: {value: 25739.908, unit: cm^-1}, g: 2, stage: 1, label: NA I 2P6 4S 2SE}
+  lev4: {energy: {value: 29172.824, unit: cm^-1}, g: 10, stage: 1, label: NA I 2P6 3D 2DE}
+  lev5: {energy: {value: 30270.639, unit: cm^-1}, g: 6, stage: 1, label: NA I 2P6 4P 2PO}
+  lev6: {energy: {value: 33200.742, unit: cm^-1}, g: 2, stage: 1, label: NA I 2P6 5S 2SE}
+  lev7: {energy: {value: 34548.754, unit: cm^-1}, g: 10, stage: 1, label: NA I 2P6 4D 2DE}
+  lev8: {energy: {value: 34588.59, unit: cm^-1}, g: 14, stage: 1, label: NA I 2P6 4F 2FO}
+  lev1_ion1: {energy: {value: 41449.594, unit: cm^-1}, g: 1, stage: 2, label: Na II 2P6 1SO}
+  lev2_ion1: {energy: {value: 317746.188, unit: cm^-1}, g: 9, stage: 2, label: NA II 2P5 3S 3PO}
+  lev3_ion1: {energy: {value: 320979.031, unit: cm^-1}, g: 3, stage: 2, label: NA II 2P5 3S 1PO}
+  lev4_ion1: {energy: {value: 344916.031, unit: cm^-1}, g: 3, stage: 2, label: NA II 2P5 3P 3SE}
+  lev5_ion1: {energy: {value: 348948.875, unit: cm^-1}, g: 15, stage: 2, label: NA II 2P5 3P 3DE}
+  lev6_ion1: {energy: {value: 350445.656, unit: cm^-1}, g: 5, stage: 2, label: NA II 2P5 3P 1DE}
+  lev7_ion1: {energy: {value: 351052.531, unit: cm^-1}, g: 3, stage: 2, label: NA II 2P5 3P 1PE}
+  lev1_ion2: {energy: {value: 687638.812, unit: cm^-1}, g: 2, stage: 3, label: NA III 2P6 2SE}
+
+radiative_bound_bound:
+  - transition: [lev2, lev1]
+    f_value: 0.975
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 62400000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev3, lev2]
+    f_value: 0.1717
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 26400000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev6, lev2]
+    f_value: 0.01423
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 12900000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev5, lev1]
+    f_value: 0.0132
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 9500000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev5, lev3]
+    f_value: 1.455
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 9500000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev6, lev5]
+    f_value: 0.315
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 12900000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev4, lev2]
+    f_value: 0.87
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 51900000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev5, lev4]
+    f_value: 0.124
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 9500000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev7, lev2]
+    f_value: 0.0965
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 19100000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev7, lev5]
+    f_value: 0.9733
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 19100000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev8, lev4]
+    f_value: 1.01
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 14100000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev8, lev7]
+    f_value: 0.0149
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 14100000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+
+radiative_bound_free:
+  - transition: [lev1_ion1, lev1]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [247.818, 1.424e-23]
+        - [246.477, 1.335e-23]
+        - [245.151, 1.25e-23]
+        - [243.839, 1.17e-23]
+        - [242.541, 1.093e-23]
+        - [241.257, 1.021e-23]
+        - [235.034, 7.109e-24]
+        - [229.125, 4.769e-24]
+        - [223.505, 3.037e-24]
+        - [218.154, 1.792e-24]
+        - [213.054, 9.371e-25]
+        - [208.187, 3.941e-25]
+        - [203.537, 9.922e-26]
+        - [199.09, 7.335e-28]
+        - [194.833, 5.673e-26]
+        - [190.755, 2.331e-25]
+        - [172.681, 2.115e-24]
+        - [157.736, 4.485e-24]
+        - [145.172, 6.644e-24]
+        - [134.461, 8.405e-24]
+        - [125.223, 9.767e-24]
+        - [117.172, 1.078e-23]
+        - [110.094, 1.152e-23]
+        - [103.822, 1.203e-23]
+        - [98.227, 1.237e-23]
+        - [93.204, 1.257e-23]
+        - [88.669, 1.267e-23]
+        - [84.555, 1.268e-23]
+        - [80.806, 1.263e-23]
+        - [77.376, 1.252e-23]
+        - [74.224, 1.236e-23]
+        - [71.32, 1.217e-23]
+        - [68.634, 1.194e-23]
+        - [66.143, 1.169e-23]
+        - [61.667, 1.114e-23]
+        - [57.759, 1.055e-23]
+        - [54.316, 9.938e-24]
+        - [51.26, 9.345e-24]
+        - [48.531, 8.788e-24]
+        - [46.077, 8.285e-24]
+        - [43.859, 7.844e-24]
+        - [41.845, 7.467e-24]
+        - [40.008, 7.162e-24]
+        - [38.325, 6.917e-24]
+  - transition: [lev1_ion1, lev2]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [427.632, 8.987e-22]
+        - [423.656, 8.656e-22]
+        - [419.753, 8.339e-22]
+        - [415.921, 8.035e-22]
+        - [412.159, 7.745e-22]
+        - [408.464, 7.467e-22]
+        - [390.94, 6.241e-22]
+        - [374.859, 5.247e-22]
+        - [360.048, 4.434e-22]
+        - [346.363, 3.766e-22]
+        - [333.68, 3.213e-22]
+        - [321.893, 2.754e-22]
+        - [310.911, 2.37e-22]
+        - [300.653, 2.048e-22]
+        - [291.05, 1.777e-22]
+        - [282.042, 1.548e-22]
+        - [244.244, 8.185e-23]
+        - [215.381, 4.711e-23]
+        - [192.618, 2.944e-23]
+        - [174.206, 1.997e-23]
+        - [159.008, 1.469e-23]
+        - [146.248, 1.166e-23]
+        - [135.384, 9.906e-24]
+        - [126.023, 8.914e-24]
+        - [117.872, 8.388e-24]
+        - [110.712, 8.155e-24]
+        - [104.372, 8.105e-24]
+        - [98.718, 8.166e-24]
+        - [93.646, 8.285e-24]
+        - [89.069, 8.423e-24]
+        - [84.919, 8.554e-24]
+        - [81.139, 8.658e-24]
+        - [77.68, 8.72e-24]
+        - [74.505, 8.734e-24]
+        - [68.874, 8.61e-24]
+        - [64.034, 8.305e-24]
+        - [59.83, 7.866e-24]
+        - [56.144, 7.354e-24]
+        - [52.885, 6.824e-24]
+        - [49.985, 6.319e-24]
+        - [47.385, 5.867e-24]
+        - [45.043, 5.485e-24]
+        - [42.922, 5.183e-24]
+        - [40.991, 4.957e-24]
+  - transition: [lev1_ion1, lev3]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [684.356, 1.317e-22]
+        - [674.23, 1.215e-22]
+        - [664.398, 1.12e-22]
+        - [654.849, 1.034e-22]
+        - [645.571, 9.538e-23]
+        - [636.552, 8.802e-23]
+        - [594.99, 5.892e-23]
+        - [558.522, 3.932e-23]
+        - [526.267, 2.602e-23]
+        - [497.534, 1.696e-23]
+        - [471.776, 1.08e-23]
+        - [448.553, 6.642e-24]
+        - [427.51, 3.878e-24]
+        - [408.353, 2.088e-24]
+        - [390.839, 9.815e-25]
+        - [374.765, 3.545e-25]
+        - [310.846, 5.787e-25]
+        - [265.554, 2.238e-24]
+        - [231.782, 3.644e-24]
+        - [205.631, 4.59e-24]
+        - [184.782, 5.156e-24]
+        - [167.772, 5.452e-24]
+        - [153.63, 5.567e-24]
+        - [141.686, 5.565e-24]
+        - [131.466, 5.489e-24]
+        - [122.621, 5.368e-24]
+        - [114.891, 5.221e-24]
+        - [108.078, 5.059e-24]
+        - [102.028, 4.89e-24]
+        - [96.619, 4.72e-24]
+        - [91.755, 4.55e-24]
+        - [87.357, 4.383e-24]
+        - [83.361, 4.22e-24]
+        - [79.715, 4.06e-24]
+        - [73.303, 3.756e-24]
+        - [67.845, 3.469e-24]
+        - [63.144, 3.203e-24]
+        - [59.052, 2.959e-24]
+        - [55.458, 2.739e-24]
+        - [52.277, 2.544e-24]
+        - [49.44, 2.375e-24]
+        - [46.896, 2.231e-24]
+        - [44.601, 2.112e-24]
+        - [42.52, 2.014e-24]
+  - transition: [lev1_ion1, lev4]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [894.502, 2.508e-21]
+        - [877.279, 2.349e-21]
+        - [860.707, 2.202e-21]
+        - [844.749, 2.066e-21]
+        - [829.373, 1.941e-21]
+        - [814.546, 1.825e-21]
+        - [747.711, 1.361e-21]
+        - [691.012, 1.035e-21]
+        - [642.306, 8.019e-22]
+        - [600.014, 6.309e-22]
+        - [562.947, 5.032e-22]
+        - [530.194, 4.062e-22]
+        - [501.042, 3.315e-22]
+        - [474.929, 2.732e-22]
+        - [451.403, 2.272e-22]
+        - [430.098, 1.904e-22]
+        - [347.979, 8.7e-23]
+        - [292.19, 4.501e-23]
+        - [251.818, 2.54e-23]
+        - [221.249, 1.528e-23]
+        - [197.297, 9.629e-24]
+        - [178.025, 6.29e-24]
+        - [162.183, 4.224e-24]
+        - [148.93, 2.9e-24]
+        - [137.68, 2.029e-24]
+        - [128.009, 1.443e-24]
+  - transition: [lev1_ion1, lev5]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [991.905, 2.426e-21]
+        - [970.772, 2.272e-21]
+        - [950.52, 2.131e-21]
+        - [931.096, 2.001e-21]
+        - [912.45, 1.88e-21]
+        - [894.536, 1.768e-21]
+        - [814.574, 1.32e-21]
+        - [747.735, 1.005e-21]
+        - [691.032, 7.779e-22]
+        - [642.324, 6.11e-22]
+        - [600.029, 4.861e-22]
+        - [562.961, 3.91e-22]
+        - [530.206, 3.177e-22]
+        - [501.053, 2.605e-22]
+        - [474.939, 2.153e-22]
+        - [451.412, 1.793e-22]
+        - [361.8, 7.894e-23]
+        - [301.873, 3.952e-23]
+        - [258.978, 2.201e-23]
+        - [226.756, 1.351e-23]
+        - [201.665, 9.102e-24]
+        - [181.574, 6.7e-24]
+        - [165.123, 5.347e-24]
+        - [151.406, 4.572e-24]
+        - [139.793, 4.13e-24]
+        - [129.834, 3.885e-24]
+        - [121.2, 3.759e-24]
+        - [113.643, 3.703e-24]
+        - [106.972, 3.685e-24]
+        - [101.042, 3.685e-24]
+        - [95.734, 3.688e-24]
+        - [90.956, 3.686e-24]
+        - [86.633, 3.671e-24]
+        - [82.702, 3.641e-24]
+        - [75.821, 3.53e-24]
+        - [69.997, 3.359e-24]
+        - [65.004, 3.145e-24]
+        - [60.675, 2.908e-24]
+        - [56.888, 2.67e-24]
+        - [53.545, 2.446e-24]
+        - [50.573, 2.247e-24]
+        - [47.914, 2.079e-24]
+        - [45.521, 1.946e-24]
+  - transition: [lev1_ion1, lev6]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [1398.311, 4.118e-22]
+        - [1356.676, 3.634e-22]
+        - [1317.448, 3.213e-22]
+        - [1280.425, 2.848e-22]
+        - [1245.426, 2.529e-22]
+        - [1212.289, 2.25e-22]
+        - [1069.95, 1.284e-22]
+        - [957.524, 7.527e-23]
+        - [866.478, 4.484e-23]
+        - [791.242, 2.684e-23]
+        - [728.028, 1.598e-23]
+        - [674.168, 9.346e-24]
+        - [627.728, 5.286e-24]
+        - [587.273, 2.825e-24]
+        - [551.717, 1.372e-24]
+        - [520.221, 5.583e-25]
+        - [404.703, 3.197e-25]
+        - [331.166, 1.383e-24]
+        - [280.244, 2.182e-24]
+        - [242.895, 2.643e-24]
+        - [214.33, 2.864e-24]
+        - [191.777, 2.935e-24]
+        - [173.519, 2.915e-24]
+        - [158.434, 2.842e-24]
+        - [145.763, 2.741e-24]
+        - [134.969, 2.625e-24]
+        - [125.663, 2.503e-24]
+        - [117.557, 2.382e-24]
+        - [110.434, 2.264e-24]
+        - [104.125, 2.152e-24]
+        - [98.497, 2.047e-24]
+        - [93.447, 1.948e-24]
+        - [88.889, 1.856e-24]
+        - [84.756, 1.771e-24]
+        - [77.543, 1.621e-24]
+        - [71.462, 1.493e-24]
+        - [66.266, 1.385e-24]
+        - [61.774, 1.293e-24]
+        - [57.852, 1.214e-24]
+        - [54.398, 1.144e-24]
+        - [51.334, 1.082e-24]
+        - [48.596, 1.025e-24]
+        - [46.136, 9.726e-25]
+  - transition: [lev1_ion1, lev7]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [1723.106, 5.695e-21]
+        - [1660.317, 5.157e-21]
+        - [1601.942, 4.684e-21]
+        - [1547.533, 4.266e-21]
+        - [1496.698, 3.894e-21]
+        - [1449.098, 3.563e-21]
+        - [1250.277, 2.359e-21]
+        - [1099.433, 1.631e-21]
+        - [981.068, 1.167e-21]
+        - [885.712, 8.588e-22]
+        - [807.251, 6.472e-22]
+        - [741.559, 4.976e-22]
+        - [685.755, 3.892e-22]
+        - [637.761, 3.09e-22]
+        - [596.046, 2.486e-22]
+        - [559.453, 2.024e-22]
+        - [428.055, 8.294e-23]
+        - [346.64, 4.003e-23]
+        - [291.246, 2.154e-23]
+        - [251.117, 1.252e-23]
+        - [220.707, 7.693e-24]
+        - [196.867, 4.934e-24]
+        - [177.674, 3.271e-24]
+        - [161.892, 2.228e-24]
+  - transition: [lev1_ion1, lev8]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [1735.017, 4.599e-23]
+        - [1671.373, 4.089e-23]
+        - [1612.232, 3.649e-23]
+        - [1557.134, 3.265e-23]
+        - [1505.677, 2.931e-23]
+        - [1457.513, 2.638e-23]
+        - [1256.538, 1.617e-23]
+        - [1104.27, 1.044e-23]
+        - [984.918, 7.023e-24]
+        - [888.849, 4.889e-24]
+        - [809.856, 3.504e-24]
+        - [743.757, 2.573e-24]
+        - [687.634, 1.931e-24]
+        - [639.386, 1.476e-24]
+        - [597.465, 1.148e-24]
+        - [560.703, 9.059e-25]
+        - [428.787, 3.319e-25]
+        - [347.12, 1.519e-25]
+        - [291.585, 8.128e-26]
+        - [251.368, 4.881e-26]
+        - [220.901, 3.195e-26]
+        - [197.021, 2.232e-26]
+
+collisional:
+  []

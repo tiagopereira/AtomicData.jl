@@ -1,0 +1,1408 @@
+%YAML 1.1
+---
+# Automatically converted to YAML from Fe.atom using helita.sim.rh15d.AtomFile.
+
+element:
+  symbol: Fe
+
+atomic_levels:
+  lev1: {energy: {value: 0.0, unit: cm^-1}, g: 25, stage: 1, label: FE I 3D6 4S2 A-5DE}
+  lev2: {energy: {value: 6928.092, unit: cm^-1}, g: 35, stage: 1, label: FE I 3D7 4S A-5FE}
+  lev3: {energy: {value: 11975.935, unit: cm^-1}, g: 21, stage: 1, label: FE I 3D7 4S A-3FE}
+  lev4: {energy: {value: 17549.732, unit: cm^-1}, g: 15, stage: 1, label: FE I 3D7 4S A-5PE}
+  lev5: {energy: {value: 18377.719, unit: cm^-1}, g: 9, stage: 1, label: FE I 3D6 4S2 A-3P2E}
+  lev6: {energy: {value: 19350.404, unit: cm^-1}, g: 35, stage: 1, label: FE I 3D6 4S4P Z-7DO}
+  lev7: {energy: {value: 19389.678, unit: cm^-1}, g: 33, stage: 1, label: FE I 3D6 4S2 A-3HE}
+  lev8: {energy: {value: 20640.59, unit: cm^-1}, g: 21, stage: 1, label: FE I 3D6 4S2 B-3F2E}
+  lev9: {energy: {value: 23266.242, unit: cm^-1}, g: 70, stage: 1, label: FE I 4S4P Z(7P+7F)O}
+  lev10: {energy: {value: 23783.016, unit: cm^-1}, g: 27, stage: 1, label: FE I 3D6 4S2 B-3GE}
+  lev11: {energy: {value: 25899.338, unit: cm^-1}, g: 25, stage: 1, label: FE I 3D6 4S4P Z-5DO}
+  lev12: {energy: {value: 26874.873, unit: cm^-1}, g: 35, stage: 1, label: FE I 3D6 4S4P Z-3PO}
+  lev13: {energy: {value: 29055.59, unit: cm^-1}, g: 15, stage: 1, label: FE I 3D6 4S4P Z-5PO}
+  lev14: {energy: {value: 33694.547, unit: cm^-1}, g: 35, stage: 1, label: FE I 3D7 4P Y-5DO}
+  lev15: {energy: {value: 34871.535, unit: cm^-1}, g: 45, stage: 1, label: FE I 3D7 4P Z-5DO}
+  lev1_ion1: {energy: {value: 63479.988, unit: cm^-1}, g: 30, stage: 2, label: FE II 3D6 4S A-6DE}
+  lev2_ion1: {energy: {value: 65896.562, unit: cm^-1}, g: 28, stage: 2, label: FE II 3D7 A-4FE}
+  lev3_ion1: {energy: {value: 71800.453, unit: cm^-1}, g: 20, stage: 2, label: FE II 3D6 4S A-4DE}
+  lev4_ion1: {energy: {value: 77092.391, unit: cm^-1}, g: 12, stage: 2, label: FE II 3D7 A-4PE}
+  lev5_ion1: {energy: {value: 79557.844, unit: cm^-1}, g: 18, stage: 2, label: FE II 3D7 A-2GE}
+  lev6_ion1: {energy: {value: 82016.016, unit: cm^-1}, g: 6, stage: 2, label: FE II 3D7 A-2PE}
+  lev7_ion1: {energy: {value: 84031.867, unit: cm^-1}, g: 22, stage: 2, label: FE II 3D7 A-2HE}
+  lev8_ion1: {energy: {value: 84313.383, unit: cm^-1}, g: 10, stage: 2, label: FE II 3D7 A-2DE}
+  lev9_ion1: {energy: {value: 84900.938, unit: cm^-1}, g: 12, stage: 2, label: FE II 3D6 4S B-4PE}
+  lev10_ion1: {energy: {value: 84939.047, unit: cm^-1}, g: 44, stage: 2, label: FE II 3D6 4S A-4HE}
+  lev11_ion1: {energy: {value: 86287.711, unit: cm^-1}, g: 28, stage: 2, label: FE II 3D6 4S B-4FE}
+  lev12_ion1: {energy: {value: 86797.625, unit: cm^-1}, g: 6, stage: 2, label: FE II 3D5 4S2 A-6SE}
+  lev13_ion1: {energy: {value: 89240.664, unit: cm^-1}, g: 36, stage: 2, label: FE II 3D6 4S A-4GE}
+  lev14_ion1: {energy: {value: 89649.305, unit: cm^-1}, g: 6, stage: 2, label: FE II 3D6 4S B-2PE}
+  lev15_ion1: {energy: {value: 89733.164, unit: cm^-1}, g: 22, stage: 2, label: FE II 3D6 4S B-2HE}
+  lev16_ion1: {energy: {value: 90925.836, unit: cm^-1}, g: 14, stage: 2, label: FE II 3D6 4S A-2FE}
+  lev1_ion2: {energy: {value: 194043.0, unit: cm^-1}, g: 1, stage: 3, label: FE III Limit}
+
+radiative_bound_bound:
+  - transition: [lev6, lev1]
+    f_value: 2.765e-05
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 4930.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 0.3, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
+  - transition: [lev11, lev1]
+    f_value: 0.02169
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 9700000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 300.0, qcore: 3.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
+  - transition: [lev12, lev1]
+    f_value: 0.04739
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 16400000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 300.0, qcore: 3.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
+  - transition: [lev12, lev2]
+    f_value: 0.000273
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 16400000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 0.3, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
+  - transition: [lev13, lev1]
+    f_value: 0.01045
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 11000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 300.0, qcore: 3.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
+  - transition: [lev13, lev4]
+    f_value: 0.01348
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 11000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 0.3, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
+  - transition: [lev14, lev1]
+    f_value: 0.05031
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 118000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 300.0, qcore: 3.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
+  - transition: [lev14, lev2]
+    f_value: 0.1888
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 118000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 300.0, qcore: 3.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
+  - transition: [lev14, lev3]
+    f_value: 0.001696
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 118000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 0.3, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
+  - transition: [lev15, lev1]
+    f_value: 0.003331
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 150000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 0.3, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
+  - transition: [lev15, lev2]
+    f_value: 0.2519
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 150000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 300.0, qcore: 3.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
+  - transition: [lev15, lev3]
+    f_value: 0.2821
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 150000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 300.0, qcore: 3.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
+
+radiative_bound_free:
+  - transition: [lev1_ion1, lev1]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [157.53, 1.0e-22]
+        - [156.0, 2.9e-22]
+        - [155.2, 7.7e-22]
+        - [154.5, 4.4e-22]
+        - [154.0, 5.0e-22]
+        - [153.5, 5.3e-22]
+        - [153.0, 3.8e-22]
+        - [151.0, 9.0e-23]
+        - [143.0, 1.2e-22]
+        - [140.0, 2.5e-22]
+        - [137.3, 1.13e-21]
+        - [135.5, 5.4e-22]
+        - [135.0, 9.2e-22]
+        - [133.4, 6.3e-22]
+        - [132.5, 1.08e-21]
+        - [130.5, 2.8e-22]
+        - [128.0, 6.7e-22]
+        - [125.0, 2.3e-22]
+        - [120.0, 6.0e-23]
+        - [115.0, 4.0e-23]
+  - transition: [lev1_ion1, lev2]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [176.83, 5.0e-22]
+        - [168.2, 4.3e-22]
+        - [162.1, 3.85e-22]
+        - [152.4, 3.2e-22]
+        - [144.4, 2.72e-22]
+        - [123.9, 1.72e-22]
+        - [110.0, 1.2e-22]
+  - transition: [lev1_ion1, lev3]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [194.16, 3.0e-22]
+        - [168.2, 1.95e-22]
+        - [162.1, 1.75e-22]
+        - [152.4, 1.45e-22]
+        - [144.4, 1.23e-22]
+        - [123.9, 7.8e-23]
+        - [110.0, 5.45e-23]
+  - transition: [lev1_ion1, lev4]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [217.72, 3.0e-22]
+        - [207.6, 2.6e-22]
+        - [198.6, 2.28e-22]
+        - [168.2, 1.38e-22]
+        - [162.1, 1.24e-22]
+        - [152.4, 1.03e-22]
+        - [144.4, 8.75e-23]
+        - [123.9, 5.53e-23]
+        - [110.0, 3.87e-23]
+  - transition: [lev1_ion1, lev5]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [221.72, 4.4e-23]
+        - [207.6, 3.61e-23]
+        - [198.6, 3.16e-23]
+        - [168.2, 1.92e-23]
+        - [162.1, 1.72e-23]
+        - [152.4, 1.43e-23]
+        - [144.4, 1.22e-23]
+        - [123.9, 7.68e-24]
+        - [110.0, 5.37e-24]
+  - transition: [lev1_ion1, lev6]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [226.61, 1.7e-22]
+        - [207.6, 1.31e-22]
+        - [198.6, 1.14e-22]
+        - [168.2, 6.95e-23]
+        - [162.1, 6.22e-23]
+        - [152.4, 5.17e-23]
+        - [144.4, 4.4e-23]
+        - [123.9, 2.78e-23]
+        - [110.0, 1.94e-23]
+  - transition: [lev1_ion1, lev7]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [226.81, 1.61e-22]
+        - [207.6, 1.23e-22]
+        - [198.6, 1.08e-22]
+        - [168.2, 6.57e-23]
+        - [162.1, 5.88e-23]
+        - [152.4, 4.88e-23]
+        - [144.4, 4.16e-23]
+        - [123.9, 2.62e-23]
+        - [110.0, 1.84e-23]
+  - transition: [lev1_ion1, lev8]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [233.43, 1.02e-22]
+        - [207.6, 7.17e-23]
+        - [198.6, 6.28e-23]
+        - [168.2, 3.82e-23]
+        - [162.1, 3.42e-23]
+        - [152.4, 2.84e-23]
+        - [144.4, 2.41e-23]
+        - [123.9, 1.52e-23]
+        - [110.0, 1.07e-23]
+  - transition: [lev1_ion1, lev9]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [248.67, 3.4e-22]
+        - [207.6, 1.98e-22]
+        - [198.6, 1.73e-22]
+        - [168.2, 1.05e-22]
+        - [162.1, 9.42e-23]
+        - [152.4, 7.83e-23]
+        - [144.4, 6.66e-23]
+        - [123.9, 4.21e-23]
+  - transition: [lev1_ion1, lev10]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [251.91, 1.31e-22]
+        - [207.6, 7.33e-23]
+        - [198.6, 6.42e-23]
+        - [168.2, 3.9e-23]
+        - [162.1, 3.49e-23]
+        - [152.4, 2.9e-23]
+        - [144.4, 2.47e-23]
+        - [123.9, 1.56e-23]
+  - transition: [lev1_ion1, lev11]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [266.09, 1.76e-22]
+        - [207.6, 8.36e-23]
+        - [198.6, 7.32e-23]
+        - [168.2, 4.44e-23]
+        - [162.1, 3.98e-23]
+        - [152.4, 3.31e-23]
+        - [144.4, 2.81e-23]
+        - [123.9, 1.78e-23]
+  - transition: [lev1_ion1, lev12]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [273.19, 2.57e-22]
+        - [207.6, 1.13e-22]
+        - [198.6, 9.87e-23]
+        - [168.2, 6.0e-23]
+        - [162.1, 5.36e-23]
+        - [152.4, 4.46e-23]
+        - [144.4, 3.8e-23]
+  - transition: [lev1_ion1, lev13]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [290.49, 1.7e-22]
+        - [207.6, 6.21e-23]
+        - [198.6, 5.43e-23]
+        - [168.2, 3.3e-23]
+        - [162.1, 2.95e-23]
+        - [152.4, 2.45e-23]
+        - [144.4, 2.09e-23]
+  - transition: [lev1_ion1, lev14]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [335.73, 3.28e-22]
+        - [207.6, 7.75e-23]
+        - [198.6, 6.79e-23]
+        - [168.2, 4.12e-23]
+        - [162.1, 3.69e-23]
+  - transition: [lev1_ion1, lev15]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [349.55, 4.22e-22]
+        - [207.6, 8.84e-23]
+        - [198.6, 7.74e-23]
+        - [168.2, 4.7e-23]
+
+collisional:
+  - transition: [lev2, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.58e-16, 1.29e-16, 1e-16]
+  - transition: [lev3, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.74e-16, 3.87e-16, 3e-16]
+  - transition: [lev3, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.74e-16, 3.87e-16, 3e-16]
+  - transition: [lev4, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.74e-16, 3.87e-16, 3e-16]
+  - transition: [lev4, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.74e-16, 3.87e-16, 3e-16]
+  - transition: [lev4, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.74e-16, 3.87e-16, 3e-16]
+  - transition: [lev5, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev5, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev5, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev5, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev6, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev6, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev6, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev6, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev6, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev7, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev7, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev7, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev7, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev7, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev7, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev8, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev8, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev8, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev8, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev8, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev8, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev8, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev9, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev9, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev9, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev9, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev9, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev9, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev9, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev9, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev10, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev10, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev10, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev10, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev10, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev10, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev10, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev10, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev10, lev9]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-16, 5.16e-16, 4e-16]
+  - transition: [lev11, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.08e-16, 2.16e-16, 1.41e-16]
+  - transition: [lev11, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev11, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev11, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev11, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev11, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev11, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev11, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev11, lev9]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev11, lev10]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev12, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.19e-16, 2.22e-16, 1.46e-16]
+  - transition: [lev12, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev12, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev12, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev12, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev12, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev12, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev12, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev12, lev9]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev12, lev10]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev12, lev11]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev13, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-17, 6.45e-17, 5e-17]
+  - transition: [lev13, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev13, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev13, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.16e-16, 2.58e-16, 2e-16]
+  - transition: [lev13, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev13, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev13, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev13, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev13, lev9]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev13, lev10]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev13, lev11]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev13, lev12]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.91e-16, 6.45e-16, 5e-16]
+  - transition: [lev14, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.16e-16, 2.58e-16, 2e-16]
+  - transition: [lev14, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.16e-15, 2.58e-15, 2e-15]
+  - transition: [lev14, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.74e-15, 3.87e-15, 3e-15]
+  - transition: [lev14, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.49e-16, 7.75e-16, 6e-16]
+  - transition: [lev14, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.49e-16, 7.75e-16, 6e-16]
+  - transition: [lev14, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.49e-16, 7.75e-16, 6e-16]
+  - transition: [lev14, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.49e-16, 7.75e-16, 6e-16]
+  - transition: [lev14, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.49e-16, 7.75e-16, 6e-16]
+  - transition: [lev14, lev9]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.49e-16, 7.75e-16, 6e-16]
+  - transition: [lev14, lev10]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.49e-16, 7.75e-16, 6e-16]
+  - transition: [lev14, lev11]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.49e-16, 7.75e-16, 6e-16]
+  - transition: [lev14, lev12]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.49e-16, 7.75e-16, 6e-16]
+  - transition: [lev14, lev13]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.49e-16, 7.75e-16, 6e-16]
+  - transition: [lev15, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.16e-16, 2.58e-16, 2e-16]
+  - transition: [lev15, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-15, 5.16e-15, 4e-15]
+  - transition: [lev15, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.32e-15, 5.16e-15, 4e-15]
+  - transition: [lev15, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.11e-15, 9.04e-16, 7e-16]
+  - transition: [lev15, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.11e-15, 9.04e-16, 7e-16]
+  - transition: [lev15, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.11e-15, 9.04e-16, 7e-16]
+  - transition: [lev15, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.11e-15, 9.04e-16, 7e-16]
+  - transition: [lev15, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.11e-15, 9.04e-16, 7e-16]
+  - transition: [lev15, lev9]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.11e-15, 9.04e-16, 7e-16]
+  - transition: [lev15, lev10]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.11e-15, 9.04e-16, 7e-16]
+  - transition: [lev15, lev11]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.11e-15, 9.04e-16, 7e-16]
+  - transition: [lev15, lev12]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.11e-15, 9.04e-16, 7e-16]
+  - transition: [lev15, lev13]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.11e-15, 9.04e-16, 7e-16]
+  - transition: [lev15, lev14]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.11e-15, 9.04e-16, 7e-16]
+  - transition: [lev1, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.72e-16, 3.72e-16, 3.71e-16]
+  - transition: [lev2, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.34e-16, 2.34e-16, 2.34e-16]
+  - transition: [lev3, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.81e-16, 2.81e-16, 2.82e-16]
+  - transition: [lev4, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.54e-16, 3.55e-16, 3.55e-16]
+  - transition: [lev5, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.35e-16, 7.36e-16, 7.35e-16]
+  - transition: [lev6, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.84e-16, 3.85e-16, 3.84e-16]
+  - transition: [lev7, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.7e-16, 7.69e-16, 7.7e-16]
+  - transition: [lev8, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [8.16e-16, 8.15e-16, 8.15e-16]
+  - transition: [lev9, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.25e-16, 9.26e-16, 9.25e-16]
+  - transition: [lev10, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.49e-16, 9.49e-16, 9.49e-16]
+  - transition: [lev11, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.3e-16, 5.29e-16, 5.3e-16]
+  - transition: [lev12, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.58e-16, 5.58e-16, 5.58e-16]
+  - transition: [lev13, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.31e-16, 6.31e-16, 6.31e-16]
+  - transition: [lev14, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [8.43e-16, 8.43e-16, 8.43e-16]
+  - transition: [lev15, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [4000.0, 6000.0, 10000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.08e-16, 9.09e-16, 9.08e-16]

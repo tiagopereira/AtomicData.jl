@@ -1,0 +1,275 @@
+%YAML 1.1
+---
+# Automatically converted to YAML from MgII-05.atom using helita.sim.rh15d.AtomFile.
+
+element:
+  symbol: Mg
+
+atomic_levels:
+  lev1: {energy: {value: 0.0, unit: cm^-1}, g: 2, stage: 2, label: MG II 2P6 3S 2SE}
+  lev2: {energy: {value: 35669.321, unit: cm^-1}, g: 2, stage: 2, label: MG II 2P6 3P 2PO 1}
+  lev3: {energy: {value: 35760.891, unit: cm^-1}, g: 4, stage: 2, label: MG II 2P6 3P 2PO 3}
+  lev4: {energy: {value: 85687.265, unit: cm^-1}, g: 44, stage: 2, label: MG II 2P6 4S 2SEm}
+  lev1_ion1: {energy: {value: 121267.657, unit: cm^-1}, g: 1, stage: 3, label: MG III GROUND TERM}
+
+radiative_bound_bound:
+  - transition: [lev2, lev1]
+    f_value: 0.3
+    type_profile: PRD
+    broadening:
+      - {type: Natural, value: 255000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 1.0}
+      - {type: VanderWaals_ABO, σ: {value: 246.0, unit: a_0^2}, α: {value: 0.357, unit: m/m}}
+      - {type: VanderWaals_Unsold, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 150, qwing: 2250.0, qcore: 20.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev3, lev1]
+    f_value: 0.601
+    type_profile: PRD
+    broadening:
+      - {type: Natural, value: 256000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 1.0}
+      - {type: VanderWaals_ABO, σ: {value: 246.0, unit: a_0^2}, α: {value: 0.357, unit: m/m}}
+      - {type: VanderWaals_Unsold, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 150, qwing: 2250.0, qcore: 20.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev4, lev1]
+    f_value: 0.000988
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 5.49, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 1.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 25, qwing: 10.0, qcore: 0.3, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev4, lev2]
+    f_value: 1.098
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 339000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 1.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 25, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev4, lev3]
+    f_value: 1.095
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 339000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 1.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 25, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+
+radiative_bound_free:
+  - transition: [lev1_ion1, lev1]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [82.5, 1.967e-23]
+        - [79.6, 2.056e-23]
+        - [76.9, 2.129e-23]
+        - [74.4, 2.187e-23]
+        - [72.0, 2.233e-23]
+        - [69.8, 2.268e-23]
+        - [67.7, 2.293e-23]
+        - [65.8, 2.311e-23]
+        - [63.9, 2.323e-23]
+        - [62.2, 2.328e-23]
+        - [60.5, 2.329e-23]
+        - [59.0, 2.325e-23]
+        - [57.5, 2.318e-23]
+        - [56.1, 2.309e-23]
+        - [54.7, 2.296e-23]
+        - [53.4, 2.282e-23]
+        - [52.2, 2.265e-23]
+        - [51.0, 2.248e-23]
+        - [49.9, 2.229e-23]
+        - [48.9, 2.208e-23]
+        - [47.8, 2.187e-23]
+        - [43.3, 2.072e-23]
+        - [39.5, 1.948e-23]
+        - [36.4, 1.821e-23]
+        - [33.7, 1.694e-23]
+        - [31.4, 1.572e-23]
+  - transition: [lev1_ion1, lev2]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [116.8, 4.75e-23]
+        - [111.1, 4.044e-23]
+        - [106.0, 3.565e-23]
+        - [101.3, 3.241e-23]
+        - [97.0, 3.023e-23]
+        - [93.0, 2.88e-23]
+        - [89.3, 2.788e-23]
+        - [86.0, 2.732e-23]
+        - [82.8, 2.7e-23]
+        - [79.9, 2.686e-23]
+        - [77.2, 2.682e-23]
+        - [74.7, 2.686e-23]
+        - [72.3, 2.695e-23]
+        - [70.1, 2.706e-23]
+        - [68.0, 2.718e-23]
+        - [66.0, 2.73e-23]
+        - [64.2, 2.742e-23]
+        - [62.4, 2.752e-23]
+        - [60.8, 2.76e-23]
+        - [59.2, 2.766e-23]
+        - [57.7, 2.77e-23]
+        - [51.2, 2.749e-23]
+        - [46.0, 2.663e-23]
+        - [41.8, 2.523e-23]
+        - [38.3, 2.347e-23]
+        - [35.3, 2.153e-23]
+        - [32.8, 1.957e-23]
+  - transition: [lev1_ion1, lev3]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [116.8, 4.75e-23]
+        - [111.1, 4.044e-23]
+        - [106.0, 3.565e-23]
+        - [101.3, 3.241e-23]
+        - [97.0, 3.023e-23]
+        - [93.0, 2.88e-23]
+        - [89.3, 2.788e-23]
+        - [86.0, 2.732e-23]
+        - [82.8, 2.7e-23]
+        - [79.9, 2.686e-23]
+        - [77.2, 2.682e-23]
+        - [74.7, 2.686e-23]
+        - [72.3, 2.695e-23]
+        - [70.1, 2.706e-23]
+        - [68.0, 2.718e-23]
+        - [66.0, 2.73e-23]
+        - [64.2, 2.742e-23]
+        - [62.4, 2.752e-23]
+        - [60.8, 2.76e-23]
+        - [59.2, 2.766e-23]
+        - [57.7, 2.77e-23]
+        - [51.2, 2.749e-23]
+        - [46.0, 2.663e-23]
+        - [41.8, 2.523e-23]
+        - [38.3, 2.347e-23]
+        - [35.3, 2.153e-23]
+        - [32.8, 1.957e-23]
+  - transition: [lev1_ion1, lev4]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [281.054, 1.485e-23]
+        - [212.5, 2.626e-22]
+        - [208.6, 2.603e-22]
+        - [204.9, 2.585e-22]
+        - [201.3, 2.569e-22]
+        - [199.768, 1.204e-22]
+        - [197.8, 2.555e-22]
+        - [194.4, 2.443e-22]
+        - [194.316, 2.666e-22]
+        - [179.1, 2.284e-22]
+        - [166.1, 2.112e-22]
+        - [154.8, 1.953e-22]
+        - [144.9, 1.672e-22]
+        - [136.3, 1.344e-22]
+        - [128.6, 1.05e-22]
+        - [121.7, 8.127e-23]
+        - [115.5, 6.439e-23]
+        - [110.0, 5.371e-23]
+        - [104.9, 4.743e-23]
+        - [100.3, 4.322e-23]
+        - [96.0, 3.982e-23]
+        - [92.2, 3.6e-23]
+        - [88.6, 3.282e-23]
+
+collisional:
+  - transition: [lev2, lev1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [1000.0, 3000.0, 5000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [5.03, 5.17, 5.3, 5.63, 6.2, 6.73]
+  - transition: [lev3, lev1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [1000.0, 3000.0, 5000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [10.1, 10.3, 10.6, 12.3, 12.4, 13.5]
+  - transition: [lev4, lev1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [1000.0, 3000.0, 5000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [0.86, 0.883, 0.893, 0.898, 0.893, 0.883]
+  - transition: [lev3, lev2]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [1000.0, 3000.0, 5000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [5.54, 5.4, 5.52, 6.14, 6.71, 6.65]
+      - type: CH
+        temperature: 
+          unit: K
+          value: [500.0, 1000.0, 3000.0, 5000.0, 15000.0]
+        data: 
+          unit: s^-1 * m^3
+          value: [1.1e-15, 1.57e-15, 2.6e-15, 3.28e-15, 6.68e-15]
+  - transition: [lev4, lev2]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [1000.0, 3000.0, 5000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [2.82, 2.85, 2.87, 2.91, 2.95, 3.04]
+  - transition: [lev4, lev3]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [1000.0, 3000.0, 5000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [5.63, 5.83, 5.88, 6.04, 6.27, 6.47]
+  - transition: [lev1_ion1, lev1]
+    data: 
+      - type: AR85-CEA
+        data: 
+          {coefficient: 1.0}
+      - type: AR85-CDI
+        data: 
+          - [15.0, 9.0, -3.6, 0.3, -5.4]
+          - [65.0, 37.7, -30.0, 24.8, -62.0]
+          - [104.5, 17.6, -5.2, 3.3, -19.0]
+      - type: Shull82
+        data: 
+          {a_col: 0.0, t_col: 174000.0, a_rad: 0.0, x_rad: 0.838, a_di: 0.00195, b_di: 0.074, t0: 606000.0, t1: 1440000.0}
+      - type: AR85-CHP
+        data: 
+          {t1: 10000.0, t2: 300000.0, a: 7.6e-05, b: 0.0, c: 0.0, d: 1.44}
+      - type: AR85-CHH
+        data: 
+          {t1: 1000.0, t2: 30000.0, a: 9.0e-05, b: 0.0, c: 0.0, d: 0.0}
+  - transition: [lev1_ion1, lev2]
+    data: 
+      - type: Burgess
+        data: 
+          {coefficient: 1.0}
+  - transition: [lev1_ion1, lev3]
+    data: 
+      - type: Burgess
+        data: 
+          {coefficient: 1.0}
+  - transition: [lev1_ion1, lev4]
+    data: 
+      - type: Burgess
+        data: 
+          {coefficient: 8.23}

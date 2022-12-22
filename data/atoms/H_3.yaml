@@ -1,0 +1,62 @@
+%YAML 1.1
+---
+# Based on H_6.yaml, reduced to 3 levels
+
+element:
+  symbol: H
+
+atomic_levels:
+  lev1: {energy: {value: 0.0, unit: cm^-1}, g: 2, stage: 1, label: H I 1S 2SE}
+  lev2: {energy: {value: 82259.158, unit: cm^-1}, g: 8, stage: 1, label: H I 2P 2PO}
+  lev1_ion1: {energy: {value: 109677.617, unit: cm^-1}, g: 1, stage: 2, label: H II continuum}
+
+radiative_bound_bound:
+  - transition: [lev2, lev1]
+    f_value: 0.4164
+    type_profile: PRD
+    broadening:
+      - {type: Natural, value: 470000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 1.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 75, qwing: 3600.0, qcore: 13.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+
+radiative_bound_free:
+  - transition: [lev1_ion1, lev1]
+    cross_section_hydrogenic: 
+      σ_peak: {value: 6.152e-22, unit: m^2}
+      λ_min: {value: 22.794, unit: nm}
+      nλ: 20
+  - transition: [lev1_ion1, lev2]
+    cross_section_hydrogenic: 
+      σ_peak: {value: 1.379e-21, unit: m^2}
+      λ_min: {value: 91.176, unit: nm}
+      nλ: 20
+
+collisional:
+  - transition: [lev2, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-1/2 * m^3
+          value: [9.75e-16, 6.098e-16, 4.535e-16, 3.365e-16, 2.008e-16, 1.56e-16]
+  - transition: [lev1, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-1/2 * m^3
+          value: [2.635e-17, 2.864e-17, 3.076e-17, 3.365e-17, 4.138e-17, 4.703e-17]
+  - transition: [lev2, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-1/2 * m^3
+          value: [5.34e-16, 6.596e-16, 7.546e-16, 8.583e-16, 1.025e-15, 1.069e-15]

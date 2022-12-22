@@ -1,0 +1,2859 @@
+%YAML 1.1
+---
+# Automatically converted to YAML from Si.atom using helita.sim.rh15d.AtomFile.
+
+element:
+  symbol: Si
+
+atomic_levels:
+  lev1: {energy: {value: 149.778, unit: cm^-1}, g: 9, stage: 1, label: SI I 3S2 3P2 3PE}
+  lev2: {energy: {value: 6298.809, unit: cm^-1}, g: 5, stage: 1, label: SI I 3S2 3P2 1DE}
+  lev3: {energy: {value: 15394.191, unit: cm^-1}, g: 1, stage: 1, label: SI I 3S2 3P2 1SE}
+  lev4: {energy: {value: 33326.053, unit: cm^-1}, g: 5, stage: 1, label: SI I 3S 3P3 5SO}
+  lev5: {energy: {value: 39859.934, unit: cm^-1}, g: 9, stage: 1, label: SI I 3S2 3P 4S 3PO}
+  lev6: {energy: {value: 40991.77, unit: cm^-1}, g: 3, stage: 1, label: SI I 3S2 3P 4S 1PO}
+  lev7: {energy: {value: 45303.355, unit: cm^-1}, g: 15, stage: 1, label: SI I 3S 3P3 3DO}
+  lev8: {energy: {value: 47284.223, unit: cm^-1}, g: 3, stage: 1, label: SI I 3S2 3P 4P 1PE}
+  lev9: {energy: {value: 47351.492, unit: cm^-1}, g: 5, stage: 1, label: SI I 3S2 3P 3D 1DO}
+  lev10: {energy: {value: 48161.469, unit: cm^-1}, g: 15, stage: 1, label: SI I 3S2 3P 4P 3DE}
+  lev11: {energy: {value: 49128.145, unit: cm^-1}, g: 9, stage: 1, label: SI I 3S2 3P 4P 3PE}
+  lev12: {energy: {value: 49399.629, unit: cm^-1}, g: 3, stage: 1, label: SI I 3S2 3P 4P 3SE}
+  lev13: {energy: {value: 49973.344, unit: cm^-1}, g: 21, stage: 1, label: SI I 3S2 3P 3D 3FO}
+  lev14: {energy: {value: 50189.41, unit: cm^-1}, g: 5, stage: 1, label: SI I 3S2 3P 4P 1DE}
+  lev15: {energy: {value: 50533.0, unit: cm^-1}, g: 9, stage: 1, label: SI I 3S2 3P 3D 3PO}
+  lev1_ion1: {energy: {value: 65934.281, unit: cm^-1}, g: 6, stage: 2, label: SI II 3S2 3P 2PO}
+  lev2_ion1: {energy: {value: 110002.148, unit: cm^-1}, g: 12, stage: 2, label: SI II 3S 3P2 4PE}
+  lev3_ion1: {energy: {value: 121056.438, unit: cm^-1}, g: 10, stage: 2, label: SI II 3S 3P2 2DE}
+  lev4_ion1: {energy: {value: 131237.984, unit: cm^-1}, g: 2, stage: 2, label: SI II 3S2 4S 2SE}
+  lev5_ion1: {energy: {value: 142406.844, unit: cm^-1}, g: 2, stage: 2, label: SI II 3S 3P2 2SE}
+  lev6_ion1: {energy: {value: 145087.844, unit: cm^-1}, g: 10, stage: 2, label: SI II 3S2 3D 2DE}
+  lev7_ion1: {energy: {value: 146968.969, unit: cm^-1}, g: 6, stage: 2, label: SI II 3S2 4P 2PO}
+  lev8_ion1: {energy: {value: 149610.891, unit: cm^-1}, g: 6, stage: 2, label: SI II 3S 3P2 2PE}
+  lev1_ion2: {energy: {value: 197560.688, unit: cm^-1}, g: 1, stage: 3, label: SI III 3S2 1SE}
+
+radiative_bound_bound:
+  - transition: [lev6, lev3]
+    f_value: 0.101
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 276000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev8, lev6]
+    f_value: 0.36
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 9510000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev6, lev2]
+    f_value: 0.195
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 276000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev14, lev6]
+    f_value: 0.68
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 23200000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev9, lev8]
+    f_value: 0.0274
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 9510000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev9, lev2]
+    f_value: 0.0406
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 45600000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev14, lev9]
+    f_value: 0.037
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 23200000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev12, lev5]
+    f_value: 0.1211
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 22100000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev15, lev12]
+    f_value: 0.0251
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 90300000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev5, lev1]
+    f_value: 0.2367
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 249000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev11, lev5]
+    f_value: 0.4356
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 25700000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev15, lev1]
+    f_value: 0.05333
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 90300000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev15, lev11]
+    f_value: 0.004533
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 90300000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev10, lev5]
+    f_value: 0.6222
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 17200000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev15, lev10]
+    f_value: 0.00086
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 90300000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev7, lev1]
+    f_value: 0.051
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 41600000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev11, lev7]
+    f_value: 0.04713
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 25700000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev10, lev7]
+    f_value: 0.01407
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 17200000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev13, lev10]
+    f_value: 0.074
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 116000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev4_ion1, lev1_ion1]
+    f_value: 0.131
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 1120000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev7_ion1, lev4_ion1]
+    f_value: 1.125
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 107000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev7_ion1, lev5_ion1]
+    f_value: 0.00249
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 107000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev8_ion1, lev1_ion1]
+    f_value: 0.8867
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 4140000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev8_ion1, lev7_ion1]
+    f_value: 1.883e-05
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 4140000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev3_ion1, lev1_ion1]
+    f_value: 0.0025
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 3040000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev7_ion1, lev3_ion1]
+    f_value: 0.0597
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 107000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev6_ion1, lev1_ion1]
+    f_value: 1.178
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 2950000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+  - transition: [lev7_ion1, lev6_ion1]
+    f_value: 0.0234
+    type_profile: Voigt
+    broadening:
+      - {type: Natural, value: 107000000.0, unit: s^-1}
+      - {type: Stark_quadratic, coefficient: 0.0}
+      - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
+    wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
+
+radiative_bound_free:
+  - transition: [lev1_ion1, lev1]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [155.023, 6.909e-21]
+        - [152.144, 6.866e-21]
+        - [149.265, 6.763e-21]
+        - [146.386, 6.599e-21]
+        - [143.507, 6.382e-21]
+        - [140.628, 6.126e-21]
+        - [137.748, 5.84e-21]
+        - [134.869, 5.518e-21]
+        - [131.99, 5.157e-21]
+        - [129.111, 4.768e-21]
+        - [126.232, 4.354e-21]
+        - [123.353, 3.91e-21]
+        - [120.474, 3.455e-21]
+        - [117.595, 2.939e-21]
+        - [114.716, 2.315e-21]
+        - [111.837, 1.956e-21]
+        - [108.958, 2.229e-21]
+        - [106.079, 2.375e-21]
+        - [103.2, 1.957e-21]
+        - [100.321, 1.741e-21]
+        - [97.442, 1.732e-21]
+        - [94.563, 1.623e-21]
+        - [91.684, 1.351e-21]
+        - [88.804, 1.141e-21]
+        - [85.925, 9.695e-22]
+        - [83.046, 8.13e-22]
+        - [80.167, 5.942e-22]
+        - [77.288, 5.661e-22]
+        - [74.409, 4.347e-22]
+        - [71.53, 3.314e-22]
+        - [68.651, 2.208e-22]
+        - [65.772, 1.723e-22]
+        - [62.893, 1.368e-22]
+        - [60.014, 1.188e-22]
+        - [57.135, 1.027e-22]
+        - [54.256, 8.788e-23]
+        - [51.377, 7.459e-23]
+        - [48.498, 6.276e-23]
+        - [45.619, 5.233e-23]
+        - [42.74, 4.297e-23]
+        - [39.861, 3.487e-23]
+        - [36.981, 2.79e-23]
+        - [34.102, 2.189e-23]
+        - [31.223, 1.68e-23]
+        - [28.344, 1.255e-23]
+        - [25.465, 9.109e-24]
+        - [22.586, 6.355e-24]
+        - [19.707, 4.23e-24]
+        - [16.828, 2.631e-24]
+        - [13.949, 1.51e-24]
+  - transition: [lev1_ion1, lev2]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [171.408, 3.518e-21]
+        - [168.206, 3.538e-21]
+        - [165.005, 3.586e-21]
+        - [161.804, 3.666e-21]
+        - [158.603, 3.785e-21]
+        - [155.402, 3.948e-21]
+        - [152.2, 4.169e-21]
+        - [148.999, 4.473e-21]
+        - [145.798, 4.881e-21]
+        - [142.597, 5.418e-21]
+        - [139.395, 6.108e-21]
+        - [136.194, 6.949e-21]
+        - [132.993, 7.859e-21]
+        - [129.792, 8.557e-21]
+        - [126.59, 8.554e-21]
+        - [123.389, 7.547e-21]
+        - [120.188, 5.939e-21]
+        - [116.987, 4.492e-21]
+        - [113.785, 3.463e-21]
+        - [110.584, 2.74e-21]
+        - [107.383, 2.079e-21]
+        - [104.182, 1.928e-21]
+        - [100.98, 2.343e-21]
+        - [97.779, 1.788e-21]
+        - [94.578, 1.35e-21]
+        - [91.377, 1.261e-21]
+        - [88.176, 1.011e-21]
+        - [84.974, 9.997e-22]
+        - [81.773, 8.464e-22]
+        - [78.572, 5.069e-22]
+        - [75.371, 4.721e-22]
+        - [72.169, 3.494e-22]
+        - [68.968, 2.567e-22]
+        - [65.767, 2.116e-22]
+        - [62.566, 1.825e-22]
+        - [59.364, 1.558e-22]
+        - [56.163, 1.321e-22]
+        - [52.962, 1.108e-22]
+        - [49.761, 9.179e-23]
+        - [46.559, 7.527e-23]
+        - [43.358, 6.076e-23]
+        - [40.157, 4.831e-23]
+        - [36.956, 3.766e-23]
+        - [33.754, 2.869e-23]
+        - [30.553, 2.124e-23]
+        - [27.352, 1.525e-23]
+        - [24.151, 1.05e-23]
+        - [20.949, 6.866e-24]
+        - [17.748, 4.173e-24]
+        - [14.547, 2.309e-24]
+  - transition: [lev1_ion1, lev3]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [203.024, 2.416e-21]
+        - [199.199, 2.365e-21]
+        - [195.373, 2.262e-21]
+        - [191.547, 2.116e-21]
+        - [187.721, 1.941e-21]
+        - [183.896, 1.75e-21]
+        - [180.07, 1.55e-21]
+        - [176.244, 1.343e-21]
+        - [172.419, 1.123e-21]
+        - [168.593, 8.864e-22]
+        - [164.767, 6.463e-22]
+        - [160.941, 4.452e-22]
+        - [157.116, 3.934e-22]
+        - [153.29, 8.346e-22]
+        - [149.464, 2.415e-21]
+        - [145.638, 5.517e-21]
+        - [141.813, 9.046e-21]
+        - [137.987, 1.073e-20]
+        - [134.161, 9.685e-21]
+        - [130.335, 7.612e-21]
+        - [126.51, 5.959e-21]
+        - [122.684, 4.856e-21]
+        - [118.858, 4.105e-21]
+        - [115.032, 3.667e-21]
+        - [111.207, 3.536e-21]
+        - [107.381, 2.869e-21]
+        - [103.555, 2.405e-21]
+        - [99.729, 1.974e-21]
+        - [95.904, 1.568e-21]
+        - [92.078, 1.478e-21]
+        - [88.252, 2.091e-21]
+        - [84.426, 7.928e-22]
+        - [80.601, 7.077e-22]
+        - [76.775, 4.823e-22]
+        - [72.949, 3.576e-22]
+        - [69.123, 2.879e-22]
+        - [65.298, 2.425e-22]
+        - [61.472, 2.024e-22]
+        - [57.646, 1.667e-22]
+        - [53.82, 1.357e-22]
+        - [49.995, 1.086e-22]
+        - [46.169, 8.552e-23]
+        - [42.343, 6.589e-23]
+        - [38.517, 4.962e-23]
+        - [34.692, 3.621e-23]
+        - [30.866, 2.548e-23]
+        - [27.04, 1.712e-23]
+        - [23.214, 1.083e-23]
+        - [19.389, 6.308e-24]
+        - [15.563, 3.277e-24]
+  - transition: [lev1_ion1, lev4]
+    cross_section_hydrogenic: 
+      σ_peak: {value: 5.4e-21, unit: m^2}
+      λ_min: {value: 50.0, unit: nm}
+      nλ: 15
+  - transition: [lev1_ion1, lev5]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [403.504, 3.691e-23]
+        - [395.653, 3.665e-23]
+        - [387.803, 3.6e-23]
+        - [379.953, 3.496e-23]
+        - [372.102, 3.355e-23]
+        - [364.252, 3.18e-23]
+        - [356.401, 2.978e-23]
+        - [348.551, 2.762e-23]
+        - [340.701, 2.548e-23]
+        - [332.85, 2.354e-23]
+        - [325.0, 2.198e-23]
+        - [317.15, 2.094e-23]
+        - [309.299, 2.051e-23]
+        - [301.449, 2.071e-23]
+        - [293.598, 2.167e-23]
+        - [285.748, 2.371e-23]
+        - [277.898, 2.764e-23]
+        - [270.047, 3.482e-23]
+        - [262.197, 4.661e-23]
+        - [254.347, 6.343e-23]
+        - [246.496, 8.292e-23]
+        - [238.646, 9.962e-23]
+        - [230.795, 1.069e-22]
+        - [222.945, 1.016e-22]
+        - [215.095, 8.766e-23]
+        - [207.244, 7.273e-23]
+        - [199.394, 6.432e-23]
+        - [191.543, 7.493e-23]
+        - [183.693, 1.211e-22]
+        - [175.843, 1.952e-22]
+        - [167.992, 2.782e-22]
+        - [160.142, 3.343e-22]
+        - [152.292, 8.21e-22]
+        - [144.441, 4.943e-21]
+        - [136.591, 1.007e-20]
+        - [128.74, 5.439e-21]
+        - [120.89, 1.322e-20]
+        - [113.04, 7.041e-21]
+        - [105.189, 1.943e-21]
+        - [97.339, 9.382e-22]
+        - [89.488, 5.6e-22]
+        - [81.638, 4.02e-22]
+        - [73.788, 2.912e-22]
+        - [65.937, 2.114e-22]
+        - [58.087, 1.43e-22]
+        - [50.237, 9.32e-23]
+        - [42.386, 5.583e-23]
+        - [34.536, 3.029e-23]
+        - [26.685, 1.391e-23]
+        - [18.835, 5.028e-24]
+  - transition: [lev1_ion1, lev6]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [422.823, 2.836e-22]
+        - [414.583, 2.812e-22]
+        - [406.342, 2.766e-22]
+        - [398.102, 2.697e-22]
+        - [389.862, 2.61e-22]
+        - [381.622, 2.508e-22]
+        - [373.381, 2.401e-22]
+        - [365.141, 2.295e-22]
+        - [356.901, 2.196e-22]
+        - [348.66, 2.108e-22]
+        - [340.42, 2.029e-22]
+        - [332.18, 1.953e-22]
+        - [323.94, 1.869e-22]
+        - [315.699, 1.768e-22]
+        - [307.459, 1.648e-22]
+        - [299.219, 1.518e-22]
+        - [290.978, 1.401e-22]
+        - [282.738, 1.328e-22]
+        - [274.498, 1.311e-22]
+        - [266.257, 1.325e-22]
+        - [258.017, 1.307e-22]
+        - [249.777, 1.199e-22]
+        - [241.537, 1.045e-22]
+        - [233.296, 9.966e-23]
+        - [225.056, 1.151e-22]
+        - [216.816, 1.286e-22]
+        - [208.575, 1.197e-22]
+        - [200.335, 2.254e-22]
+        - [192.095, 8.151e-22]
+        - [183.855, 2.004e-21]
+        - [175.614, 2.79e-21]
+        - [167.374, 1.989e-21]
+        - [159.134, 6.831e-22]
+        - [150.894, 7.068e-22]
+        - [142.653, 3.147e-21]
+        - [134.413, 5.095e-21]
+        - [126.173, 6.291e-21]
+        - [117.932, 1.444e-20]
+        - [109.692, 2.623e-21]
+        - [101.452, 9.817e-22]
+        - [93.212, 5.605e-22]
+        - [84.971, 3.765e-22]
+        - [76.731, 2.742e-22]
+        - [68.491, 1.958e-22]
+        - [60.25, 1.314e-22]
+        - [52.01, 8.374e-23]
+        - [43.77, 4.988e-23]
+        - [35.53, 2.686e-23]
+        - [27.289, 1.2e-23]
+        - [19.049, 4.062e-24]
+  - transition: [lev1_ion1, lev7]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [516.99, 1.334e-21]
+        - [506.84, 1.333e-21]
+        - [496.69, 1.33e-21]
+        - [486.539, 1.327e-21]
+        - [476.389, 1.322e-21]
+        - [466.238, 1.315e-21]
+        - [456.088, 1.306e-21]
+        - [445.938, 1.296e-21]
+        - [435.787, 1.284e-21]
+        - [425.637, 1.271e-21]
+        - [415.487, 1.255e-21]
+        - [405.336, 1.238e-21]
+        - [395.186, 1.219e-21]
+        - [385.036, 1.199e-21]
+        - [374.885, 1.177e-21]
+        - [364.735, 1.155e-21]
+        - [354.585, 1.133e-21]
+        - [344.434, 1.112e-21]
+        - [334.284, 1.093e-21]
+        - [324.133, 1.077e-21]
+        - [313.983, 1.068e-21]
+        - [303.833, 1.069e-21]
+        - [293.682, 1.085e-21]
+        - [283.532, 1.121e-21]
+        - [273.382, 1.189e-21]
+        - [263.231, 1.3e-21]
+        - [253.081, 1.466e-21]
+        - [242.931, 1.7e-21]
+        - [232.78, 2.006e-21]
+        - [222.63, 2.379e-21]
+        - [212.48, 2.791e-21]
+        - [202.329, 3.199e-21]
+        - [192.179, 3.55e-21]
+        - [182.029, 3.804e-21]
+        - [171.878, 3.941e-21]
+        - [161.728, 3.954e-21]
+        - [151.577, 3.907e-21]
+        - [141.427, 4.126e-21]
+        - [131.277, 4.945e-21]
+        - [121.126, 5.322e-21]
+        - [110.976, 3.682e-21]
+        - [100.826, 1.824e-21]
+        - [90.675, 1.147e-21]
+        - [80.525, 7.889e-22]
+        - [70.375, 5.278e-22]
+        - [60.224, 3.31e-22]
+        - [50.074, 1.907e-22]
+        - [39.924, 9.689e-23]
+        - [29.773, 4.033e-23]
+        - [19.623, 1.187e-23]
+  - transition: [lev1_ion1, lev9]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [578.318, 2.859e-21]
+        - [566.925, 2.855e-21]
+        - [555.531, 2.847e-21]
+        - [544.138, 2.835e-21]
+        - [532.745, 2.819e-21]
+        - [521.351, 2.798e-21]
+        - [509.958, 2.772e-21]
+        - [498.565, 2.739e-21]
+        - [487.172, 2.7e-21]
+        - [475.778, 2.654e-21]
+        - [464.385, 2.601e-21]
+        - [452.992, 2.54e-21]
+        - [441.598, 2.471e-21]
+        - [430.205, 2.395e-21]
+        - [418.812, 2.311e-21]
+        - [407.419, 2.218e-21]
+        - [396.025, 2.119e-21]
+        - [384.632, 2.013e-21]
+        - [373.239, 1.902e-21]
+        - [361.845, 1.786e-21]
+        - [350.452, 1.667e-21]
+        - [339.059, 1.548e-21]
+        - [327.666, 1.431e-21]
+        - [316.272, 1.319e-21]
+        - [304.879, 1.215e-21]
+        - [293.486, 1.124e-21]
+        - [282.092, 1.049e-21]
+        - [270.699, 9.922e-22]
+        - [259.306, 9.557e-22]
+        - [247.913, 9.37e-22]
+        - [236.519, 9.303e-22]
+        - [225.126, 9.291e-22]
+        - [213.733, 9.38e-22]
+        - [202.339, 9.93e-22]
+        - [190.946, 1.178e-21]
+        - [179.553, 1.594e-21]
+        - [168.16, 2.258e-21]
+        - [156.766, 3.044e-21]
+        - [145.373, 3.945e-21]
+        - [133.98, 5.328e-21]
+        - [122.587, 6.559e-21]
+        - [111.193, 4.718e-21]
+        - [99.8, 1.466e-21]
+        - [88.407, 7.634e-22]
+        - [77.013, 5.025e-22]
+        - [65.62, 3.139e-22]
+        - [54.227, 1.759e-22]
+        - [42.834, 8.795e-23]
+        - [31.44, 3.479e-23]
+        - [20.047, 9.265e-24]
+  - transition: [lev1_ion1, lev8]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [575.664, 1.184e-21]
+        - [564.328, 1.179e-21]
+        - [552.992, 1.169e-21]
+        - [541.656, 1.152e-21]
+        - [530.32, 1.129e-21]
+        - [518.984, 1.099e-21]
+        - [507.647, 1.062e-21]
+        - [496.311, 1.018e-21]
+        - [484.975, 9.683e-22]
+        - [473.639, 9.132e-22]
+        - [462.303, 8.541e-22]
+        - [450.967, 7.925e-22]
+        - [439.631, 7.301e-22]
+        - [428.295, 6.685e-22]
+        - [416.959, 6.094e-22]
+        - [405.623, 5.539e-22]
+        - [394.287, 5.029e-22]
+        - [382.951, 4.568e-22]
+        - [371.615, 4.159e-22]
+        - [360.279, 3.809e-22]
+        - [348.943, 3.536e-22]
+        - [337.607, 3.364e-22]
+        - [326.271, 3.318e-22]
+        - [314.935, 3.407e-22]
+        - [303.599, 3.602e-22]
+        - [292.263, 3.853e-22]
+        - [280.927, 4.129e-22]
+        - [269.591, 4.439e-22]
+        - [258.255, 4.766e-22]
+        - [246.919, 4.956e-22]
+        - [235.583, 4.864e-22]
+        - [224.247, 4.673e-22]
+        - [212.911, 4.451e-22]
+        - [201.575, 3.795e-22]
+        - [190.239, 3.715e-22]
+        - [178.903, 4.672e-22]
+        - [167.567, 7.19e-22]
+        - [156.23, 1.881e-21]
+        - [144.894, 2.389e-21]
+        - [133.558, 6.919e-21]
+        - [122.222, 6.303e-21]
+        - [110.886, 6.153e-21]
+        - [99.55, 1.41e-21]
+        - [88.214, 6.346e-22]
+        - [76.878, 4.098e-22]
+        - [65.542, 2.542e-22]
+        - [54.206, 1.443e-22]
+        - [42.87, 7.119e-23]
+        - [31.534, 2.824e-23]
+        - [20.198, 7.485e-24]
+  - transition: [lev1_ion1, lev10]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [606.681, 1.277e-21]
+        - [594.716, 1.276e-21]
+        - [582.75, 1.274e-21]
+        - [570.784, 1.272e-21]
+        - [558.819, 1.268e-21]
+        - [546.853, 1.262e-21]
+        - [534.887, 1.255e-21]
+        - [522.922, 1.247e-21]
+        - [510.956, 1.236e-21]
+        - [498.99, 1.224e-21]
+        - [487.025, 1.209e-21]
+        - [475.059, 1.192e-21]
+        - [463.093, 1.172e-21]
+        - [451.128, 1.148e-21]
+        - [439.162, 1.122e-21]
+        - [427.196, 1.091e-21]
+        - [415.231, 1.057e-21]
+        - [403.265, 1.018e-21]
+        - [391.299, 9.752e-22]
+        - [379.334, 9.273e-22]
+        - [367.368, 8.747e-22]
+        - [355.402, 8.173e-22]
+        - [343.437, 7.554e-22]
+        - [331.471, 6.895e-22]
+        - [319.505, 6.205e-22]
+        - [307.54, 5.5e-22]
+        - [295.574, 4.802e-22]
+        - [283.608, 4.139e-22]
+        - [271.643, 3.552e-22]
+        - [259.677, 3.083e-22]
+        - [247.711, 2.78e-22]
+        - [235.746, 2.682e-22]
+        - [223.78, 2.8e-22]
+        - [211.814, 3.109e-22]
+        - [199.849, 3.58e-22]
+        - [187.883, 4.352e-22]
+        - [175.917, 6.216e-22]
+        - [163.952, 1.151e-21]
+        - [151.986, 2.471e-21]
+        - [140.021, 4.938e-21]
+        - [128.055, 7.687e-21]
+        - [116.089, 7.689e-21]
+        - [104.124, 3.683e-21]
+        - [92.158, 9.509e-22]
+        - [80.192, 5.228e-22]
+        - [68.227, 3.215e-22]
+        - [56.261, 1.797e-22]
+        - [44.295, 8.672e-23]
+        - [32.33, 3.374e-23]
+        - [20.364, 8.526e-24]
+  - transition: [lev1_ion1, lev13]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [681.591, 3.095e-21]
+        - [668.119, 3.09e-21]
+        - [654.646, 3.081e-21]
+        - [641.173, 3.068e-21]
+        - [627.7, 3.05e-21]
+        - [614.228, 3.025e-21]
+        - [600.755, 2.995e-21]
+        - [587.282, 2.958e-21]
+        - [573.81, 2.914e-21]
+        - [560.337, 2.863e-21]
+        - [546.864, 2.803e-21]
+        - [533.391, 2.734e-21]
+        - [519.919, 2.657e-21]
+        - [506.446, 2.57e-21]
+        - [492.973, 2.474e-21]
+        - [479.501, 2.37e-21]
+        - [466.028, 2.257e-21]
+        - [452.555, 2.136e-21]
+        - [439.083, 2.008e-21]
+        - [425.61, 1.875e-21]
+        - [412.137, 1.738e-21]
+        - [398.664, 1.599e-21]
+        - [385.192, 1.46e-21]
+        - [371.719, 1.325e-21]
+        - [358.246, 1.195e-21]
+        - [344.774, 1.073e-21]
+        - [331.301, 9.617e-22]
+        - [317.828, 8.64e-22]
+        - [304.356, 7.828e-22]
+        - [290.883, 7.202e-22]
+        - [277.41, 6.762e-22]
+        - [263.938, 6.462e-22]
+        - [250.465, 6.174e-22]
+        - [236.992, 5.715e-22]
+        - [223.519, 5.059e-22]
+        - [210.047, 4.816e-22]
+        - [196.574, 6.589e-22]
+        - [183.101, 1.182e-21]
+        - [169.629, 1.789e-21]
+        - [156.156, 1.891e-21]
+        - [142.683, 2.757e-21]
+        - [129.211, 7.149e-21]
+        - [115.738, 7.182e-21]
+        - [102.265, 1.655e-21]
+        - [88.792, 6.987e-22]
+        - [75.32, 4.268e-22]
+        - [61.847, 2.36e-22]
+        - [48.374, 1.136e-22]
+        - [34.902, 4.27e-23]
+        - [21.429, 1.014e-23]
+  - transition: [lev1_ion1, lev12]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [656.325, 8.757e-22]
+        - [643.351, 8.755e-22]
+        - [630.377, 8.75e-22]
+        - [617.403, 8.743e-22]
+        - [604.429, 8.731e-22]
+        - [591.455, 8.716e-22]
+        - [578.481, 8.697e-22]
+        - [565.507, 8.673e-22]
+        - [552.533, 8.644e-22]
+        - [539.559, 8.609e-22]
+        - [526.585, 8.567e-22]
+        - [513.611, 8.518e-22]
+        - [500.637, 8.461e-22]
+        - [487.663, 8.394e-22]
+        - [474.689, 8.316e-22]
+        - [461.715, 8.227e-22]
+        - [448.741, 8.124e-22]
+        - [435.767, 8.006e-22]
+        - [422.793, 7.87e-22]
+        - [409.819, 7.714e-22]
+        - [396.845, 7.533e-22]
+        - [383.871, 7.325e-22]
+        - [370.897, 7.083e-22]
+        - [357.923, 6.803e-22]
+        - [344.949, 6.478e-22]
+        - [331.975, 6.101e-22]
+        - [319.001, 5.668e-22]
+        - [306.027, 5.179e-22]
+        - [293.053, 4.641e-22]
+        - [280.079, 4.083e-22]
+        - [267.105, 3.556e-22]
+        - [254.131, 3.151e-22]
+        - [241.157, 2.998e-22]
+        - [228.183, 3.241e-22]
+        - [215.209, 3.96e-22]
+        - [202.235, 5.045e-22]
+        - [189.261, 6.132e-22]
+        - [176.287, 7.084e-22]
+        - [163.313, 9.866e-22]
+        - [150.339, 2.137e-21]
+        - [137.365, 4.971e-21]
+        - [124.391, 7.942e-21]
+        - [111.417, 6.054e-21]
+        - [98.443, 1.495e-21]
+        - [85.469, 6.234e-22]
+        - [72.495, 3.722e-22]
+        - [59.521, 2.067e-22]
+        - [46.547, 9.996e-23]
+        - [33.573, 3.701e-23]
+        - [20.599, 8.543e-24]
+  - transition: [lev1_ion1, lev11]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [644.28, 1.357e-21]
+        - [631.569, 1.357e-21]
+        - [618.858, 1.355e-21]
+        - [606.147, 1.353e-21]
+        - [593.435, 1.349e-21]
+        - [580.724, 1.344e-21]
+        - [568.013, 1.338e-21]
+        - [555.302, 1.331e-21]
+        - [542.591, 1.322e-21]
+        - [529.88, 1.311e-21]
+        - [517.169, 1.298e-21]
+        - [504.458, 1.283e-21]
+        - [491.746, 1.266e-21]
+        - [479.035, 1.246e-21]
+        - [466.324, 1.223e-21]
+        - [453.613, 1.198e-21]
+        - [440.902, 1.17e-21]
+        - [428.191, 1.138e-21]
+        - [415.48, 1.103e-21]
+        - [402.769, 1.064e-21]
+        - [390.058, 1.021e-21]
+        - [377.346, 9.743e-22]
+        - [364.635, 9.235e-22]
+        - [351.924, 8.683e-22]
+        - [339.213, 8.087e-22]
+        - [326.502, 7.444e-22]
+        - [313.791, 6.753e-22]
+        - [301.08, 6.017e-22]
+        - [288.369, 5.244e-22]
+        - [275.657, 4.454e-22]
+        - [262.946, 3.686e-22]
+        - [250.235, 3.012e-22]
+        - [237.524, 2.532e-22]
+        - [224.813, 2.361e-22]
+        - [212.102, 2.576e-22]
+        - [199.391, 3.127e-22]
+        - [186.68, 3.895e-22]
+        - [173.968, 5.357e-22]
+        - [161.257, 1.057e-21]
+        - [148.546, 2.727e-21]
+        - [135.835, 6.122e-21]
+        - [123.124, 8.872e-21]
+        - [110.413, 5.799e-21]
+        - [97.702, 9.772e-22]
+        - [84.991, 4.282e-22]
+        - [72.279, 2.57e-22]
+        - [59.568, 1.481e-22]
+        - [46.857, 7.102e-23]
+        - [34.146, 2.714e-23]
+        - [21.435, 7.118e-24]
+  - transition: [lev1_ion1, lev15]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [707.964, 2.896e-21]
+        - [693.938, 2.889e-21]
+        - [679.913, 2.875e-21]
+        - [665.887, 2.852e-21]
+        - [651.861, 2.82e-21]
+        - [637.835, 2.778e-21]
+        - [623.809, 2.725e-21]
+        - [609.783, 2.662e-21]
+        - [595.757, 2.588e-21]
+        - [581.731, 2.504e-21]
+        - [567.706, 2.411e-21]
+        - [553.68, 2.308e-21]
+        - [539.654, 2.198e-21]
+        - [525.628, 2.083e-21]
+        - [511.602, 1.964e-21]
+        - [497.576, 1.844e-21]
+        - [483.55, 1.726e-21]
+        - [469.524, 1.612e-21]
+        - [455.499, 1.504e-21]
+        - [441.473, 1.405e-21]
+        - [427.447, 1.313e-21]
+        - [413.421, 1.226e-21]
+        - [399.395, 1.141e-21]
+        - [385.369, 1.055e-21]
+        - [371.343, 9.679e-22]
+        - [357.317, 8.894e-22]
+        - [343.291, 8.34e-22]
+        - [329.266, 8.081e-22]
+        - [315.24, 7.876e-22]
+        - [301.214, 7.239e-22]
+        - [287.188, 6.197e-22]
+        - [273.162, 5.964e-22]
+        - [259.136, 7.016e-22]
+        - [245.11, 6.898e-22]
+        - [231.084, 1.139e-21]
+        - [217.059, 4.07e-21]
+        - [203.033, 6.64e-21]
+        - [189.007, 4.337e-21]
+        - [174.981, 3.89e-21]
+        - [160.955, 2.249e-21]
+        - [146.929, 1.691e-21]
+        - [132.903, 4.691e-21]
+        - [118.877, 1.113e-20]
+        - [104.851, 1.622e-21]
+        - [90.825, 9.604e-22]
+        - [76.8, 5.813e-22]
+        - [62.774, 3.181e-22]
+        - [48.748, 1.493e-22]
+        - [34.722, 5.419e-23]
+        - [20.696, 1.166e-23]
+  - transition: [lev1_ion1, lev14]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [691.506, 1.619e-21]
+        - [677.836, 1.616e-21]
+        - [664.165, 1.609e-21]
+        - [650.495, 1.598e-21]
+        - [636.825, 1.583e-21]
+        - [623.155, 1.563e-21]
+        - [609.484, 1.539e-21]
+        - [595.814, 1.509e-21]
+        - [582.144, 1.474e-21]
+        - [568.473, 1.435e-21]
+        - [554.803, 1.392e-21]
+        - [541.133, 1.345e-21]
+        - [527.463, 1.296e-21]
+        - [513.792, 1.245e-21]
+        - [500.122, 1.195e-21]
+        - [486.452, 1.146e-21]
+        - [472.781, 1.1e-21]
+        - [459.111, 1.056e-21]
+        - [445.441, 1.015e-21]
+        - [431.77, 9.751e-22]
+        - [418.1, 9.344e-22]
+        - [404.43, 8.914e-22]
+        - [390.759, 8.455e-22]
+        - [377.089, 7.982e-22]
+        - [363.419, 7.515e-22]
+        - [349.748, 7.057e-22]
+        - [336.078, 6.579e-22]
+        - [322.408, 6.022e-22]
+        - [308.737, 5.369e-22]
+        - [295.067, 4.685e-22]
+        - [281.397, 4.04e-22]
+        - [267.727, 3.383e-22]
+        - [254.056, 2.718e-22]
+        - [240.386, 2.276e-22]
+        - [226.716, 1.952e-22]
+        - [213.045, 1.597e-22]
+        - [199.375, 1.612e-22]
+        - [185.705, 2.786e-22]
+        - [172.034, 3.877e-22]
+        - [158.364, 1.254e-21]
+        - [144.694, 7.1e-22]
+        - [131.023, 7.027e-21]
+        - [117.353, 1.504e-20]
+        - [103.683, 9.37e-22]
+        - [90.013, 3.519e-22]
+        - [76.342, 2.188e-22]
+        - [62.672, 1.244e-22]
+        - [49.002, 5.928e-23]
+        - [35.331, 2.194e-23]
+        - [21.661, 5.265e-24]
+  - transition: [lev1_ion2, lev1_ion1]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [78.345, 1.776e-22]
+        - [76.886, 1.819e-22]
+        - [75.428, 1.891e-22]
+        - [73.97, 1.933e-22]
+        - [72.511, 1.873e-22]
+        - [71.053, 1.674e-22]
+        - [69.594, 1.38e-22]
+        - [68.136, 1.092e-22]
+        - [66.677, 8.761e-23]
+        - [65.219, 7.161e-23]
+        - [63.76, 5.824e-23]
+        - [62.302, 5.021e-23]
+        - [60.843, 4.866e-23]
+        - [59.385, 4.587e-23]
+        - [57.926, 3.837e-23]
+        - [56.468, 3.603e-23]
+        - [55.009, 4.274e-23]
+        - [53.551, 4.671e-23]
+        - [52.093, 4.394e-23]
+        - [50.634, 4.024e-23]
+        - [49.176, 4.082e-23]
+        - [47.717, 4.768e-23]
+        - [46.259, 4.757e-23]
+        - [44.8, 4.845e-23]
+        - [43.342, 4.74e-23]
+        - [41.883, 4.979e-23]
+        - [40.425, 5.427e-23]
+        - [38.966, 5.772e-23]
+        - [37.508, 5.691e-23]
+        - [36.049, 6.406e-23]
+        - [34.591, 6.152e-23]
+        - [33.132, 5.675e-23]
+        - [31.674, 5.601e-23]
+        - [30.215, 4.885e-23]
+        - [28.757, 4.212e-23]
+        - [27.299, 3.601e-23]
+        - [25.84, 3.054e-23]
+        - [24.382, 2.565e-23]
+        - [22.923, 2.13e-23]
+        - [21.465, 1.75e-23]
+        - [20.006, 1.417e-23]
+        - [18.548, 1.128e-23]
+        - [17.089, 8.821e-24]
+        - [15.631, 6.75e-24]
+        - [14.172, 5.032e-24]
+        - [12.714, 3.632e-24]
+        - [11.255, 2.52e-24]
+        - [9.797, 1.66e-24]
+        - [8.338, 1.024e-24]
+        - [6.88, 5.781e-25]
+  - transition: [lev1_ion2, lev2_ion1]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [73.348, 2.023e-22]
+        - [72.016, 1.977e-22]
+        - [70.684, 1.886e-22]
+        - [69.351, 1.757e-22]
+        - [68.019, 1.604e-22]
+        - [66.687, 1.441e-22]
+        - [65.355, 1.286e-22]
+        - [64.022, 1.15e-22]
+        - [62.69, 1.039e-22]
+        - [61.358, 9.482e-23]
+        - [60.026, 8.69e-23]
+        - [58.693, 7.938e-23]
+        - [57.361, 7.187e-23]
+        - [56.029, 6.461e-23]
+        - [54.697, 5.813e-23]
+        - [53.364, 5.295e-23]
+        - [52.032, 4.945e-23]
+        - [50.7, 4.777e-23]
+        - [49.368, 4.742e-23]
+        - [48.035, 4.783e-23]
+        - [46.703, 4.968e-23]
+        - [45.371, 5.439e-23]
+        - [44.039, 6.001e-23]
+        - [42.706, 6.211e-23]
+        - [41.374, 6.293e-23]
+        - [40.042, 6.709e-23]
+        - [38.71, 6.815e-23]
+        - [37.377, 6.262e-23]
+        - [36.045, 5.655e-23]
+        - [34.713, 5.054e-23]
+        - [33.381, 4.503e-23]
+        - [32.048, 3.986e-23]
+        - [30.716, 3.512e-23]
+        - [29.384, 3.078e-23]
+        - [28.052, 2.681e-23]
+        - [26.719, 2.32e-23]
+        - [25.387, 1.991e-23]
+        - [24.055, 1.695e-23]
+        - [22.723, 1.43e-23]
+        - [21.39, 1.194e-23]
+        - [20.058, 9.858e-24]
+        - [18.726, 8.029e-24]
+        - [17.394, 6.44e-24]
+        - [16.061, 5.078e-24]
+        - [14.729, 3.92e-24]
+        - [13.397, 2.952e-24]
+        - [12.065, 2.159e-24]
+        - [10.732, 1.521e-24]
+        - [9.4, 1.023e-24]
+        - [8.068, 6.545e-25]
+  - transition: [lev1_ion2, lev3_ion1]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [137.95, 5.126e-22]
+        - [135.301, 5.097e-22]
+        - [132.652, 5.03e-22]
+        - [130.002, 4.922e-22]
+        - [127.353, 4.786e-22]
+        - [124.704, 4.67e-22]
+        - [122.055, 4.641e-22]
+        - [119.405, 4.724e-22]
+        - [116.756, 4.902e-22]
+        - [114.107, 5.13e-22]
+        - [111.458, 5.5e-22]
+        - [108.808, 6.321e-22]
+        - [106.159, 7.896e-22]
+        - [103.51, 9.924e-22]
+        - [100.861, 1.121e-21]
+        - [98.211, 1.055e-21]
+        - [95.562, 8.081e-22]
+        - [92.913, 5.774e-22]
+        - [90.264, 4.881e-22]
+        - [87.614, 4.388e-22]
+        - [84.965, 3.654e-22]
+        - [82.316, 4.029e-22]
+        - [79.667, 4.977e-22]
+        - [77.017, 4.206e-22]
+        - [74.368, 2.871e-22]
+        - [71.719, 2.409e-22]
+        - [69.07, 2.16e-22]
+        - [66.42, 1.831e-22]
+        - [63.771, 1.215e-22]
+        - [61.122, 1.012e-22]
+        - [58.473, 9.734e-23]
+        - [55.823, 7.49e-23]
+        - [53.174, 6.243e-23]
+        - [50.525, 6.071e-23]
+        - [47.876, 5.755e-23]
+        - [45.226, 4.938e-23]
+        - [42.577, 5.387e-23]
+        - [39.928, 5.315e-23]
+        - [37.279, 5.114e-23]
+        - [34.629, 4.106e-23]
+        - [31.98, 3.234e-23]
+        - [29.331, 2.495e-23]
+        - [26.682, 1.882e-23]
+        - [24.032, 1.377e-23]
+        - [21.383, 9.703e-24]
+        - [18.734, 6.52e-24]
+        - [16.085, 4.123e-24]
+        - [13.435, 2.408e-24]
+        - [10.786, 1.248e-24]
+        - [8.137, 5.389e-25]
+  - transition: [lev1_ion2, lev4_ion1]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [160.466, 1.588e-22]
+        - [157.368, 1.389e-22]
+        - [154.27, 1.037e-22]
+        - [151.172, 8.55e-23]
+        - [148.074, 1.423e-22]
+        - [144.976, 3.557e-22]
+        - [141.878, 8.155e-22]
+        - [138.78, 1.61e-21]
+        - [135.682, 2.794e-21]
+        - [132.584, 4.35e-21]
+        - [129.486, 6.163e-21]
+        - [126.388, 8.003e-21]
+        - [123.29, 9.536e-21]
+        - [120.192, 1.038e-20]
+        - [117.095, 1.022e-20]
+        - [113.997, 8.949e-21]
+        - [110.899, 6.767e-21]
+        - [107.801, 4.193e-21]
+        - [104.703, 1.914e-21]
+        - [101.605, 4.647e-22]
+        - [98.507, 5.351e-23]
+        - [95.409, 1.224e-23]
+        - [92.311, 7.857e-23]
+        - [89.213, 1.44e-23]
+        - [86.115, 4.148e-23]
+        - [83.017, 2.213e-23]
+        - [79.919, 4.401e-23]
+        - [76.821, 1.3e-23]
+        - [73.723, 2.119e-23]
+        - [70.626, 3.717e-23]
+        - [67.528, 4.666e-24]
+        - [64.43, 3.486e-23]
+        - [61.332, 8.124e-24]
+        - [58.234, 2.757e-23]
+        - [55.136, 9.97e-24]
+        - [52.038, 2.149e-23]
+        - [48.94, 5.002e-23]
+        - [45.842, 3.669e-23]
+        - [42.744, 3.285e-23]
+        - [39.646, 3.262e-23]
+        - [36.548, 2.096e-23]
+        - [33.45, 2.021e-23]
+        - [30.352, 1.542e-23]
+        - [27.255, 8.733e-24]
+        - [24.157, 6.056e-24]
+        - [21.059, 4.488e-24]
+        - [17.961, 2.291e-24]
+        - [14.863, 1.815e-24]
+        - [11.765, 9.601e-25]
+        - [8.667, 1.382e-25]
+  - transition: [lev1_ion2, lev5_ion1]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [195.422, 1.169e-23]
+        - [191.624, 9.168e-24]
+        - [187.826, 3.038e-24]
+        - [184.029, 8.375e-24]
+        - [180.231, 2.555e-23]
+        - [176.433, 5.044e-23]
+        - [172.636, 8.569e-23]
+        - [168.838, 1.331e-22]
+        - [165.04, 1.953e-22]
+        - [161.243, 2.734e-22]
+        - [157.445, 3.661e-22]
+        - [153.647, 4.684e-22]
+        - [149.85, 5.698e-22]
+        - [146.052, 6.537e-22]
+        - [142.254, 6.993e-22]
+        - [138.457, 6.882e-22]
+        - [134.659, 6.158e-22]
+        - [130.861, 5.079e-22]
+        - [127.064, 4.336e-22]
+        - [123.266, 5.004e-22]
+        - [119.468, 8.174e-22]
+        - [115.671, 1.412e-21]
+        - [111.873, 2.148e-21]
+        - [108.075, 2.717e-21]
+        - [104.278, 2.791e-21]
+        - [100.48, 2.311e-21]
+        - [96.682, 1.618e-21]
+        - [92.885, 1.147e-21]
+        - [89.087, 9.548e-22]
+        - [85.289, 8.442e-22]
+        - [81.492, 8.563e-22]
+        - [77.694, 8.734e-22]
+        - [73.896, 5.152e-22]
+        - [70.099, 2.247e-22]
+        - [66.301, 1.697e-22]
+        - [62.503, 1.138e-22]
+        - [58.706, 6.187e-23]
+        - [54.908, 5.493e-23]
+        - [51.11, 5.778e-23]
+        - [47.313, 5.932e-23]
+        - [43.515, 6.634e-23]
+        - [39.717, 5.602e-23]
+        - [35.92, 4.148e-23]
+        - [32.122, 2.94e-23]
+        - [28.324, 2.026e-23]
+        - [24.527, 1.3e-23]
+        - [20.729, 7.886e-24]
+        - [16.931, 4.263e-24]
+        - [13.134, 2.008e-24]
+        - [9.336, 7.485e-25]
+  - transition: [lev1_ion2, lev6_ion1]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [206.419, 1.481e-23]
+        - [202.394, 1.356e-23]
+        - [198.369, 1.225e-23]
+        - [194.344, 1.365e-23]
+        - [190.319, 1.963e-23]
+        - [186.293, 2.915e-23]
+        - [182.268, 4.008e-23]
+        - [178.243, 5.539e-23]
+        - [174.218, 8.895e-23]
+        - [170.193, 1.582e-22]
+        - [166.168, 2.724e-22]
+        - [162.143, 4.385e-22]
+        - [158.117, 7.255e-22]
+        - [154.092, 1.353e-21]
+        - [150.067, 2.616e-21]
+        - [146.042, 4.527e-21]
+        - [142.017, 6.377e-21]
+        - [137.992, 7.161e-21]
+        - [133.966, 7.013e-21]
+        - [129.941, 7.604e-21]
+        - [125.916, 9.499e-21]
+        - [121.891, 9.899e-21]
+        - [117.866, 6.775e-21]
+        - [113.841, 3.107e-21]
+        - [109.816, 1.595e-21]
+        - [105.79, 1.108e-21]
+        - [101.765, 8.59e-22]
+        - [97.74, 6.022e-22]
+        - [93.715, 5.087e-22]
+        - [89.69, 4.334e-22]
+        - [85.665, 3.15e-22]
+        - [81.64, 2.633e-22]
+        - [77.614, 2.126e-22]
+        - [73.589, 1.734e-22]
+        - [69.564, 1.112e-22]
+        - [65.539, 8.795e-23]
+        - [61.514, 7.291e-23]
+        - [57.489, 5.452e-23]
+        - [53.464, 7.48e-23]
+        - [49.438, 5.067e-23]
+        - [45.413, 4.274e-23]
+        - [41.388, 3.348e-23]
+        - [37.363, 2.443e-23]
+        - [33.338, 1.738e-23]
+        - [29.313, 1.185e-23]
+        - [25.288, 7.557e-24]
+        - [21.262, 4.49e-24]
+        - [17.237, 2.415e-24]
+        - [13.212, 1.076e-24]
+        - [9.187, 3.693e-25]
+  - transition: [lev1_ion2, lev7_ion1]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [214.628, 2.879e-22]
+        - [210.433, 2.857e-22]
+        - [206.238, 2.754e-22]
+        - [202.043, 2.525e-22]
+        - [197.848, 2.236e-22]
+        - [193.653, 2.001e-22]
+        - [189.458, 1.802e-22]
+        - [185.264, 1.518e-22]
+        - [181.069, 1.304e-22]
+        - [176.874, 1.5e-22]
+        - [172.679, 1.877e-22]
+        - [168.484, 1.726e-22]
+        - [164.289, 1.248e-22]
+        - [160.094, 1.013e-22]
+        - [155.899, 7.207e-23]
+        - [151.705, 7.211e-23]
+        - [147.51, 8.973e-23]
+        - [143.315, 6.814e-23]
+        - [139.12, 1.402e-22]
+        - [134.925, 1.467e-22]
+        - [130.73, 5.407e-22]
+        - [126.535, 2.257e-21]
+        - [122.34, 1.147e-20]
+        - [118.146, 1.239e-20]
+        - [113.951, 2.39e-21]
+        - [109.756, 5.69e-22]
+        - [105.561, 3.004e-22]
+        - [101.366, 1.617e-22]
+        - [97.171, 1.436e-22]
+        - [92.976, 8.184e-23]
+        - [88.782, 5.11e-23]
+        - [84.587, 3.997e-23]
+        - [80.392, 1.894e-23]
+        - [76.197, 1.717e-23]
+        - [72.002, 1.672e-23]
+        - [67.807, 1.09e-23]
+        - [63.612, 1.087e-23]
+        - [59.417, 2.361e-23]
+        - [55.223, 1.363e-23]
+        - [51.028, 5.563e-23]
+        - [46.833, 5.371e-23]
+        - [42.638, 2.098e-23]
+        - [38.443, 1.477e-23]
+        - [34.248, 1.045e-23]
+        - [30.053, 7.089e-24]
+        - [25.858, 4.577e-24]
+        - [21.664, 2.618e-24]
+        - [17.469, 1.412e-24]
+        - [13.274, 5.97e-25]
+        - [9.079, 2.063e-25]
+  - transition: [lev1_ion2, lev8_ion1]
+    cross_section: 
+      unit: [nm, m^2]
+      value: 
+        - [227.557, 5.343e-23]
+        - [223.109, 4.974e-23]
+        - [218.661, 4.181e-23]
+        - [214.212, 3.077e-23]
+        - [209.764, 1.905e-23]
+        - [205.316, 1.056e-23]
+        - [200.868, 1.067e-23]
+        - [196.419, 2.697e-23]
+        - [191.971, 6.64e-23]
+        - [187.523, 1.367e-22]
+        - [183.074, 2.437e-22]
+        - [178.626, 3.909e-22]
+        - [174.178, 5.749e-22]
+        - [169.729, 7.874e-22]
+        - [165.281, 1.014e-21]
+        - [160.833, 1.237e-21]
+        - [156.384, 1.444e-21]
+        - [151.936, 1.629e-21]
+        - [147.488, 1.804e-21]
+        - [143.039, 1.992e-21]
+        - [138.591, 2.205e-21]
+        - [134.143, 2.41e-21]
+        - [129.694, 2.507e-21]
+        - [125.246, 2.35e-21]
+        - [120.798, 1.883e-21]
+        - [116.349, 1.299e-21]
+        - [111.901, 1.071e-21]
+        - [107.453, 1.572e-21]
+        - [103.005, 2.471e-21]
+        - [98.556, 2.773e-21]
+        - [94.108, 2.03e-21]
+        - [89.66, 1.135e-21]
+        - [85.211, 8.386e-22]
+        - [80.763, 6.703e-22]
+        - [76.315, 4.393e-22]
+        - [71.866, 2.958e-22]
+        - [67.418, 1.68e-22]
+        - [62.97, 1.084e-22]
+        - [58.521, 7.041e-23]
+        - [54.073, 5.991e-23]
+        - [49.625, 6.437e-23]
+        - [45.177, 4.679e-23]
+        - [40.728, 3.831e-23]
+        - [36.28, 2.698e-23]
+        - [31.832, 1.802e-23]
+        - [27.383, 1.134e-23]
+        - [22.935, 6.696e-24]
+        - [18.487, 3.42e-24]
+        - [14.038, 1.481e-24]
+        - [9.59, 4.596e-25]
+
+collisional:
+  - transition: [lev2, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [8.101e-15, 4.86e-15, 3.472e-15, 2.43e-15, 1.215e-15, 8.101e-16]
+  - transition: [lev3, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.267e-15, 1.96e-15, 1.4e-15, 9.802e-16, 4.901e-16, 3.267e-16]
+  - transition: [lev4, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.598e-15, 9.589e-16, 6.849e-16, 4.794e-16, 2.397e-16, 1.598e-16]
+  - transition: [lev5, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.079e-14, 6.52e-15, 4.691e-15, 3.32e-15, 1.718e-15, 1.183e-15]
+  - transition: [lev6, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.22e-15, 7.318e-16, 5.227e-16, 3.659e-16, 1.829e-16, 1.22e-16]
+  - transition: [lev7, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.882e-15, 1.137e-15, 8.177e-16, 5.782e-16, 2.987e-16, 2.053e-16]
+  - transition: [lev8, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.057e-15, 6.341e-16, 4.529e-16, 3.17e-16, 1.585e-16, 1.057e-16]
+  - transition: [lev9, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.055e-15, 6.332e-16, 4.523e-16, 3.166e-16, 1.583e-16, 1.055e-16]
+  - transition: [lev10, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.037e-15, 6.225e-16, 4.446e-16, 3.112e-16, 1.556e-16, 1.037e-16]
+  - transition: [lev11, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.017e-15, 6.102e-16, 4.359e-16, 3.051e-16, 1.525e-16, 1.017e-16]
+  - transition: [lev12, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.011e-15, 6.068e-16, 4.335e-16, 3.034e-16, 1.517e-16, 1.011e-16]
+  - transition: [lev13, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.997e-16, 5.998e-16, 4.285e-16, 2.999e-16, 1.5e-16, 9.997e-17]
+  - transition: [lev14, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.954e-16, 5.973e-16, 4.266e-16, 2.986e-16, 1.493e-16, 9.954e-17]
+  - transition: [lev15, lev1]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.639e-15, 9.895e-16, 7.113e-16, 5.027e-16, 2.592e-16, 1.779e-16]
+  - transition: [lev3, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.476e-15, 3.286e-15, 2.347e-15, 1.643e-15, 8.215e-16, 5.476e-16]
+  - transition: [lev4, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.991e-15, 1.195e-15, 8.532e-16, 5.973e-16, 2.986e-16, 1.991e-16]
+  - transition: [lev5, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.484e-15, 8.905e-16, 6.361e-16, 4.453e-16, 2.226e-16, 1.484e-16]
+  - transition: [lev6, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.99e-15, 6.045e-15, 4.355e-15, 3.087e-15, 1.605e-15, 1.109e-15]
+  - transition: [lev7, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.277e-15, 7.662e-16, 5.473e-16, 3.831e-16, 1.916e-16, 1.277e-16]
+  - transition: [lev8, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.215e-15, 7.292e-16, 5.209e-16, 3.646e-16, 1.823e-16, 1.215e-16]
+  - transition: [lev9, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.574e-15, 9.517e-16, 6.85e-16, 4.85e-16, 2.516e-16, 1.735e-16]
+  - transition: [lev10, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.19e-15, 7.139e-16, 5.099e-16, 3.57e-16, 1.785e-16, 1.19e-16]
+  - transition: [lev11, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.163e-15, 6.978e-16, 4.984e-16, 3.489e-16, 1.744e-16, 1.163e-16]
+  - transition: [lev12, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.156e-15, 6.934e-16, 4.953e-16, 3.467e-16, 1.734e-16, 1.156e-16]
+  - transition: [lev13, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.14e-15, 6.843e-16, 4.888e-16, 3.421e-16, 1.711e-16, 1.14e-16]
+  - transition: [lev14, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.135e-15, 6.809e-16, 4.864e-16, 3.405e-16, 1.702e-16, 1.135e-16]
+  - transition: [lev15, lev2]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.126e-15, 6.756e-16, 4.826e-16, 3.378e-16, 1.689e-16, 1.126e-16]
+  - transition: [lev4, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.128e-15, 1.877e-15, 1.341e-15, 9.384e-16, 4.692e-16, 3.128e-16]
+  - transition: [lev5, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.036e-15, 1.222e-15, 8.725e-16, 6.108e-16, 3.054e-16, 2.036e-16]
+  - transition: [lev6, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.126e-15, 4.325e-15, 3.124e-15, 2.223e-15, 1.169e-15, 8.148e-16]
+  - transition: [lev7, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.665e-15, 9.992e-16, 7.137e-16, 4.996e-16, 2.498e-16, 1.665e-16]
+  - transition: [lev8, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.562e-15, 9.372e-16, 6.694e-16, 4.686e-16, 2.343e-16, 1.562e-16]
+  - transition: [lev9, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.559e-15, 9.352e-16, 6.68e-16, 4.676e-16, 2.338e-16, 1.559e-16]
+  - transition: [lev10, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.52e-15, 9.121e-16, 6.515e-16, 4.56e-16, 2.28e-16, 1.52e-16]
+  - transition: [lev11, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.477e-15, 8.859e-16, 6.328e-16, 4.43e-16, 2.215e-16, 1.477e-16]
+  - transition: [lev12, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.465e-15, 8.789e-16, 6.278e-16, 4.394e-16, 2.197e-16, 1.465e-16]
+  - transition: [lev13, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.44e-15, 8.643e-16, 6.173e-16, 4.321e-16, 2.161e-16, 1.44e-16]
+  - transition: [lev14, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.432e-15, 8.589e-16, 6.135e-16, 4.295e-16, 2.147e-16, 1.432e-16]
+  - transition: [lev15, lev3]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.418e-15, 8.505e-16, 6.075e-16, 4.253e-16, 2.126e-16, 1.418e-16]
+  - transition: [lev5, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.832e-15, 3.499e-15, 2.499e-15, 1.749e-15, 8.747e-16, 5.832e-16]
+  - transition: [lev6, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.149e-15, 3.09e-15, 2.207e-15, 1.545e-15, 7.724e-16, 5.149e-16]
+  - transition: [lev7, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.562e-15, 2.137e-15, 1.526e-15, 1.069e-15, 5.343e-16, 3.562e-16]
+  - transition: [lev8, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.12e-15, 1.872e-15, 1.337e-15, 9.36e-16, 4.68e-16, 3.12e-16]
+  - transition: [lev9, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.107e-15, 1.864e-15, 1.331e-15, 9.32e-16, 4.66e-16, 3.107e-16]
+  - transition: [lev10, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.957e-15, 1.774e-15, 1.267e-15, 8.872e-16, 4.436e-16, 2.957e-16]
+  - transition: [lev11, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.797e-15, 1.678e-15, 1.199e-15, 8.39e-16, 4.195e-16, 2.797e-16]
+  - transition: [lev12, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.755e-15, 1.653e-15, 1.181e-15, 8.265e-16, 4.132e-16, 2.755e-16]
+  - transition: [lev13, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.67e-15, 1.602e-15, 1.144e-15, 8.01e-16, 4.005e-16, 2.67e-16]
+  - transition: [lev14, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.64e-15, 1.584e-15, 1.131e-15, 7.919e-16, 3.959e-16, 2.64e-16]
+  - transition: [lev15, lev4]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.592e-15, 1.555e-15, 1.111e-15, 7.777e-16, 3.889e-16, 2.592e-16]
+  - transition: [lev6, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.401e-14, 2.641e-14, 1.886e-14, 1.32e-14, 6.601e-15, 4.401e-15]
+  - transition: [lev7, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.151e-15, 5.49e-15, 3.922e-15, 2.745e-15, 1.373e-15, 9.151e-16]
+  - transition: [lev8, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.709e-15, 4.025e-15, 2.875e-15, 2.013e-15, 1.006e-15, 6.709e-16]
+  - transition: [lev9, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.649e-15, 3.989e-15, 2.85e-15, 1.995e-15, 9.973e-16, 6.649e-16]
+  - transition: [lev10, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.51e-14, 3.668e-14, 2.873e-14, 2.269e-14, 1.528e-14, 1.24e-14]
+  - transition: [lev11, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.431e-14, 2.908e-14, 2.25e-14, 1.749e-14, 1.125e-14, 8.708e-15]
+  - transition: [lev12, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.084e-14, 1.29e-14, 9.488e-15, 6.912e-15, 3.851e-15, 2.787e-15]
+  - transition: [lev13, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.925e-15, 2.955e-15, 2.111e-15, 1.478e-15, 7.388e-16, 4.925e-16]
+  - transition: [lev14, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.822e-15, 2.893e-15, 2.067e-15, 1.447e-15, 7.233e-16, 4.822e-16]
+  - transition: [lev15, lev5]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.667e-15, 2.8e-15, 2e-15, 1.4e-15, 7e-16, 4.667e-16]
+  - transition: [lev7, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.155e-14, 6.932e-15, 4.951e-15, 3.466e-15, 1.733e-15, 1.155e-15]
+  - transition: [lev8, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.161e-14, 3.5e-14, 2.776e-14, 2.219e-14, 1.505e-14, 1.216e-14]
+  - transition: [lev9, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.832e-15, 4.699e-15, 3.357e-15, 2.35e-15, 1.175e-15, 7.832e-16]
+  - transition: [lev10, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.947e-15, 4.168e-15, 2.977e-15, 2.084e-15, 1.042e-15, 6.947e-16]
+  - transition: [lev11, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.122e-15, 3.673e-15, 2.624e-15, 1.837e-15, 9.183e-16, 6.122e-16]
+  - transition: [lev12, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.924e-15, 3.555e-15, 2.539e-15, 1.777e-15, 8.886e-16, 5.924e-16]
+  - transition: [lev13, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.546e-15, 3.328e-15, 2.377e-15, 1.664e-15, 8.319e-16, 5.546e-16]
+  - transition: [lev14, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.39e-14, 3.559e-14, 2.771e-14, 2.173e-14, 1.441e-14, 1.163e-14]
+  - transition: [lev15, lev6]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.221e-15, 3.132e-15, 2.237e-15, 1.566e-15, 7.831e-16, 5.221e-16]
+  - transition: [lev8, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.515e-14, 1.509e-14, 1.078e-14, 7.544e-15, 3.772e-15, 2.515e-15]
+  - transition: [lev9, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.432e-14, 1.459e-14, 1.042e-14, 7.296e-15, 3.648e-15, 2.432e-15]
+  - transition: [lev10, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.344e-14, 8.523e-15, 6.374e-15, 4.72e-15, 2.683e-15, 1.944e-15]
+  - transition: [lev11, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.58e-14, 1.7e-14, 1.28e-14, 9.572e-15, 5.6e-15, 4.123e-15]
+  - transition: [lev12, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.216e-14, 7.296e-15, 5.211e-15, 3.648e-15, 1.824e-15, 1.216e-15]
+  - transition: [lev13, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.067e-14, 6.4e-15, 4.571e-15, 3.2e-15, 1.6e-15, 1.067e-15]
+  - transition: [lev14, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.019e-14, 6.117e-15, 4.369e-15, 3.058e-15, 1.529e-15, 1.019e-15]
+  - transition: [lev15, lev7]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.525e-15, 5.715e-15, 4.082e-15, 2.857e-15, 1.429e-15, 9.525e-16]
+  - transition: [lev9, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.072e-12, 2.478e-12, 2.103e-12, 1.737e-12, 1.148e-12, 8.799e-13]
+  - transition: [lev10, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.678e-14, 3.407e-14, 2.433e-14, 1.703e-14, 8.517e-15, 5.678e-15]
+  - transition: [lev11, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.701e-14, 1.621e-14, 1.158e-14, 8.104e-15, 4.052e-15, 2.701e-15]
+  - transition: [lev12, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.355e-14, 1.413e-14, 1.009e-14, 7.064e-15, 3.532e-15, 2.355e-15]
+  - transition: [lev13, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.852e-14, 1.111e-14, 7.938e-15, 5.557e-15, 2.778e-15, 1.852e-15]
+  - transition: [lev14, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.715e-14, 1.029e-14, 7.348e-15, 5.144e-15, 2.572e-15, 1.715e-15]
+  - transition: [lev15, lev8]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.533e-14, 9.199e-15, 6.571e-15, 4.6e-15, 2.3e-15, 1.533e-15]
+  - transition: [lev10, lev9]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.15e-14, 3.69e-14, 2.636e-14, 1.845e-14, 9.224e-15, 6.15e-15]
+  - transition: [lev11, lev9]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.804e-14, 1.682e-14, 1.202e-14, 8.411e-15, 4.205e-15, 2.804e-15]
+  - transition: [lev12, lev9]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.432e-14, 1.459e-14, 1.042e-14, 7.296e-15, 3.648e-15, 2.432e-15]
+  - transition: [lev13, lev9]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.9e-14, 1.14e-14, 8.142e-15, 5.699e-15, 2.85e-15, 1.9e-15]
+  - transition: [lev14, lev9]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.859e-14, 1.919e-14, 1.466e-14, 1.104e-14, 6.526e-15, 4.842e-15]
+  - transition: [lev15, lev9]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.566e-14, 9.394e-15, 6.71e-15, 4.697e-15, 2.348e-15, 1.566e-15]
+  - transition: [lev11, lev10]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.153e-14, 3.092e-14, 2.208e-14, 1.546e-14, 7.729e-15, 5.153e-15]
+  - transition: [lev12, lev10]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.023e-14, 2.414e-14, 1.724e-14, 1.207e-14, 6.034e-15, 4.023e-15]
+  - transition: [lev13, lev10]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.33e-14, 4.695e-14, 3.9e-14, 3.212e-14, 2.136e-14, 1.667e-14]
+  - transition: [lev14, lev10]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.456e-14, 1.474e-14, 1.053e-14, 7.369e-15, 3.684e-15, 2.456e-15]
+  - transition: [lev15, lev10]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.672e-16, 6.186e-16, 4.653e-16, 3.466e-16, 1.989e-16, 1.447e-16]
+  - transition: [lev12, lev11]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.835e-13, 1.101e-13, 7.863e-14, 5.504e-14, 2.752e-14, 1.835e-14]
+  - transition: [lev13, lev11]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.893e-14, 3.536e-14, 2.526e-14, 1.768e-14, 8.84e-15, 5.893e-15]
+  - transition: [lev14, lev11]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.693e-14, 2.816e-14, 2.011e-14, 1.408e-14, 7.04e-15, 4.693e-15]
+  - transition: [lev15, lev11]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.09e-14, 7.017e-15, 5.288e-15, 3.939e-15, 2.245e-15, 1.621e-15]
+  - transition: [lev13, lev12]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [8.682e-14, 5.209e-14, 3.721e-14, 2.605e-14, 1.302e-14, 8.682e-15]
+  - transition: [lev14, lev12]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.307e-14, 3.784e-14, 2.703e-14, 1.892e-14, 9.46e-15, 6.307e-15]
+  - transition: [lev15, lev12]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.374e-14, 3.931e-14, 3.168e-14, 2.517e-14, 1.546e-14, 1.144e-14]
+  - transition: [lev14, lev13]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.305e-13, 1.383e-13, 9.88e-14, 6.916e-14, 3.458e-14, 2.305e-14]
+  - transition: [lev15, lev13]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [8.9e-14, 5.34e-14, 3.814e-14, 2.67e-14, 1.335e-14, 8.9e-15]
+  - transition: [lev15, lev14]
+    data: 
+      - type: CE
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.45e-13, 8.698e-14, 6.213e-14, 4.349e-14, 2.175e-14, 1.45e-14]
+  - transition: [lev2_ion1, lev1_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [0.5455, 0.772, 0.9705, 1.237, 1.982, 2.611]
+  - transition: [lev3_ion1, lev1_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [0.009363, 0.01325, 0.01666, 0.02123, 0.03401, 0.04481]
+  - transition: [lev4_ion1, lev1_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [0.369, 0.5223, 0.6566, 0.8368, 1.341, 1.766]
+  - transition: [lev5_ion1, lev1_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [0.1912, 0.2706, 0.3402, 0.4336, 0.6947, 0.9153]
+  - transition: [lev6_ion1, lev1_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [2.402, 3.4, 4.274, 5.447, 8.727, 11.5]
+  - transition: [lev7_ion1, lev1_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [0.196, 0.2774, 0.3488, 0.4445, 0.7122, 0.9383]
+  - transition: [lev8_ion1, lev1_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [1.647, 2.331, 2.93, 3.735, 5.983, 7.883]
+  - transition: [lev3_ion1, lev2_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [11.14, 15.76, 19.82, 25.25, 40.46, 53.31]
+  - transition: [lev4_ion1, lev2_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [3.719, 5.264, 6.617, 8.433, 13.51, 17.8]
+  - transition: [lev5_ion1, lev2_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [1.829, 2.588, 3.253, 4.146, 6.643, 8.752]
+  - transition: [lev6_ion1, lev2_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [1.6, 2.264, 2.847, 3.628, 5.812, 7.658]
+  - transition: [lev7_ion1, lev2_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [1.466, 2.074, 2.607, 3.323, 5.324, 7.014]
+  - transition: [lev8_ion1, lev2_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [1.305, 1.847, 2.322, 2.959, 4.741, 6.246]
+  - transition: [lev4_ion1, lev3_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [10.66, 15.08, 18.96, 24.16, 38.71, 51.0]
+  - transition: [lev5_ion1, lev3_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [3.071, 4.347, 5.465, 6.965, 11.16, 14.7]
+  - transition: [lev6_ion1, lev3_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [2.518, 3.564, 4.48, 5.709, 9.147, 12.05]
+  - transition: [lev7_ion1, lev3_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [1.324, 1.874, 2.356, 3.003, 4.811, 6.339]
+  - transition: [lev8_ion1, lev3_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [1.885, 2.667, 3.353, 4.273, 6.846, 9.02]
+  - transition: [lev5_ion1, lev4_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [1.824, 2.582, 3.246, 4.137, 6.628, 8.732]
+  - transition: [lev6_ion1, lev4_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [1.271, 1.799, 2.261, 2.882, 4.617, 6.083]
+  - transition: [lev7_ion1, lev4_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [11.54, 16.34, 20.54, 26.18, 41.94, 55.25]
+  - transition: [lev8_ion1, lev4_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [0.7906, 1.119, 1.407, 1.793, 2.872, 3.784]
+  - transition: [lev6_ion1, lev5_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [20.06, 28.38, 35.68, 45.48, 72.86, 95.99]
+  - transition: [lev7_ion1, lev5_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [0.2044, 0.2893, 0.3637, 0.4636, 0.7427, 0.9785]
+  - transition: [lev8_ion1, lev5_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [3.811, 5.394, 6.78, 8.642, 13.85, 18.24]
+  - transition: [lev7_ion1, lev6_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [42.55, 60.23, 75.71, 96.49, 154.6, 203.7]
+  - transition: [lev8_ion1, lev6_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [41.65, 58.95, 74.1, 94.44, 151.3, 199.3]
+  - transition: [lev8_ion1, lev7_ion1]
+    data: 
+      - type: Omega
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: m/m
+          value: [0.01161, 0.01643, 0.02066, 0.02633, 0.04219, 0.05558]
+  - transition: [lev1, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.141e-15, 1.141e-15, 1.141e-15, 1.141e-15, 1.141e-15, 1.141e-15]
+  - transition: [lev2, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.33e-16, 6.33e-16, 6.33e-16, 6.33e-16, 6.33e-16, 6.33e-16]
+  - transition: [lev3, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.024e-16, 5.024e-16, 5.024e-16, 5.024e-16, 5.024e-16, 5.024e-16]
+  - transition: [lev4, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.681e-15, 1.681e-15, 1.681e-15, 1.681e-15, 1.681e-15, 1.681e-15]
+  - transition: [lev5, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.856e-17, 1.856e-17, 1.856e-17, 1.856e-17, 1.856e-17, 1.856e-17]
+  - transition: [lev6, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.279e-16, 1.279e-16, 1.279e-16, 1.279e-16, 1.279e-16, 1.279e-16]
+  - transition: [lev7, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [8.689e-16, 8.689e-16, 8.689e-16, 8.689e-16, 8.689e-16, 8.689e-16]
+  - transition: [lev8, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [7.4e-16, 7.4e-16, 7.4e-16, 7.4e-16, 7.4e-16, 7.4e-16]
+  - transition: [lev9, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.24e-15, 2.24e-15, 2.24e-15, 2.24e-15, 2.24e-15, 2.24e-15]
+  - transition: [lev10, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.154e-15, 1.154e-15, 1.154e-15, 1.154e-15, 1.154e-15, 1.154e-15]
+  - transition: [lev11, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.015e-15, 1.015e-15, 1.015e-15, 1.015e-15, 1.015e-15, 1.015e-15]
+  - transition: [lev12, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [4.688e-16, 4.688e-16, 4.688e-16, 4.688e-16, 4.688e-16, 4.688e-16]
+  - transition: [lev13, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.968e-15, 2.968e-15, 2.968e-15, 2.968e-15, 2.968e-15, 2.968e-15]
+  - transition: [lev14, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.123e-15, 1.123e-15, 1.123e-15, 1.123e-15, 1.123e-15, 1.123e-15]
+  - transition: [lev15, lev1_ion1]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.434e-15, 2.434e-15, 2.434e-15, 2.434e-15, 2.434e-15, 2.434e-15]
+  - transition: [lev1_ion1, lev1_ion2]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [2.272e-17, 2.272e-17, 2.272e-17, 2.272e-17, 2.272e-17, 2.272e-17]
+  - transition: [lev2_ion1, lev1_ion2]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.864e-17, 5.864e-17, 5.864e-17, 5.864e-17, 5.864e-17, 5.864e-17]
+  - transition: [lev3_ion1, lev1_ion2]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.009e-17, 9.009e-17, 9.009e-17, 9.009e-17, 9.009e-17, 9.009e-17]
+  - transition: [lev4_ion1, lev1_ion2]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [3.401e-17, 3.401e-17, 3.401e-17, 3.401e-17, 3.401e-17, 3.401e-17]
+  - transition: [lev5_ion1, lev1_ion2]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [6.653e-19, 6.653e-19, 6.653e-19, 6.653e-19, 6.653e-19, 6.653e-19]
+  - transition: [lev6_ion1, lev1_ion2]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [5.395e-19, 5.395e-19, 5.395e-19, 5.395e-19, 5.395e-19, 5.395e-19]
+  - transition: [lev7_ion1, lev1_ion2]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [9.561e-17, 9.561e-17, 9.561e-17, 9.561e-17, 9.561e-17, 9.561e-17]
+  - transition: [lev8_ion1, lev1_ion2]
+    data: 
+      - type: CI
+        temperature: 
+          unit: K
+          value: [3000.0, 5000.0, 7000.0, 10000.0, 20000.0, 30000.0]
+        data: 
+          unit: s^-1 * K^-(1/2) * m^3
+          value: [1.15e-17, 1.15e-17, 1.15e-17, 1.15e-17, 1.15e-17, 1.15e-17]
