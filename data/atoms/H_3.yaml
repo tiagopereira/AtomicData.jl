@@ -13,11 +13,11 @@ atomic_levels:
 radiative_bound_bound:
   - transition: [lev2, lev1]
     f_value: 0.4164
-    type_profile: PRD
+    profile_type: PRD
     broadening:
       - {type: Natural, value: 470000000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 1.0}
-      - {type: Stark_linear, coefficient: 1.0, n_upper: 2, n_lower: 1}
+      - {type: Stark_linear_Sutton, coefficient: 1.0, n_upper: 2, n_lower: 1}
       - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
     wavelengths: {type: RH, nλ: 75, qwing: 3600.0, qcore: 13.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
 

@@ -26,7 +26,7 @@ atomic_levels:
 radiative_bound_bound:
   - transition: [lev2, lev1]
     f_value: 0.975
-    type_profile: Voigt
+    profile_type: Voigt
     broadening:
       - {type: Natural, value: 62400000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 0.0}
@@ -34,7 +34,7 @@ radiative_bound_bound:
     wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev3, lev2]
     f_value: 0.1717
-    type_profile: Voigt
+    profile_type: Voigt
     broadening:
       - {type: Natural, value: 26400000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 0.0}
@@ -42,7 +42,7 @@ radiative_bound_bound:
     wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev6, lev2]
     f_value: 0.01423
-    type_profile: Voigt
+    profile_type: Voigt
     broadening:
       - {type: Natural, value: 12900000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 0.0}
@@ -50,7 +50,7 @@ radiative_bound_bound:
     wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev5, lev1]
     f_value: 0.0132
-    type_profile: Voigt
+    profile_type: Voigt
     broadening:
       - {type: Natural, value: 9500000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 0.0}
@@ -58,7 +58,7 @@ radiative_bound_bound:
     wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev5, lev3]
     f_value: 1.455
-    type_profile: Voigt
+    profile_type: Voigt
     broadening:
       - {type: Natural, value: 9500000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 0.0}
@@ -66,7 +66,7 @@ radiative_bound_bound:
     wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev6, lev5]
     f_value: 0.315
-    type_profile: Voigt
+    profile_type: Voigt
     broadening:
       - {type: Natural, value: 12900000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 0.0}
@@ -74,7 +74,7 @@ radiative_bound_bound:
     wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev4, lev2]
     f_value: 0.87
-    type_profile: Voigt
+    profile_type: Voigt
     broadening:
       - {type: Natural, value: 51900000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 0.0}
@@ -82,7 +82,7 @@ radiative_bound_bound:
     wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev5, lev4]
     f_value: 0.124
-    type_profile: Voigt
+    profile_type: Voigt
     broadening:
       - {type: Natural, value: 9500000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 0.0}
@@ -90,7 +90,7 @@ radiative_bound_bound:
     wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev7, lev2]
     f_value: 0.0965
-    type_profile: Voigt
+    profile_type: Voigt
     broadening:
       - {type: Natural, value: 19100000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 0.0}
@@ -98,7 +98,7 @@ radiative_bound_bound:
     wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev7, lev5]
     f_value: 0.9733
-    type_profile: Voigt
+    profile_type: Voigt
     broadening:
       - {type: Natural, value: 19100000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 0.0}
@@ -106,7 +106,7 @@ radiative_bound_bound:
     wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev8, lev4]
     f_value: 1.01
-    type_profile: Voigt
+    profile_type: Voigt
     broadening:
       - {type: Natural, value: 14100000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 0.0}
@@ -114,7 +114,7 @@ radiative_bound_bound:
     wavelengths: {type: RH, nλ: 15, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev8, lev7]
     f_value: 0.0149
-    type_profile: Voigt
+    profile_type: Voigt
     broadening:
       - {type: Natural, value: 14100000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 0.0}
