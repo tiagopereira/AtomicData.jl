@@ -21,7 +21,7 @@ radiative_bound_bound:
     broadening:
       - {type: Natural, value: 470000000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 1.0}
-      - {type: Stark_linear_Sutton_Sutton, coefficient: 1.0, n_upper: 2, n_lower: 1}
+      - {type: Stark_linear_Sutton, coefficient: 1.0, n_upper: 2, n_lower: 1}
       - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
     wavelengths: {type: RH, nλ: 75, qwing: 3600.0, qcore: 13.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev3, lev1]
@@ -30,7 +30,7 @@ radiative_bound_bound:
     broadening:
       - {type: Natural, value: 99800000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 1.0}
-      - {type: Stark_linear_Sutton_Sutton, coefficient: 1.0, n_upper: 3, n_lower: 1}
+      - {type: Stark_linear_Sutton, coefficient: 1.0, n_upper: 3, n_lower: 1}
       - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
     wavelengths: {type: RH, nλ: 75, qwing: 250.0, qcore: 10.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev4, lev1]
@@ -39,7 +39,7 @@ radiative_bound_bound:
     broadening:
       - {type: Natural, value: 30200000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 1.0}
-      - {type: Stark_linear_Sutton_Sutton, coefficient: 1.0, n_upper: 4, n_lower: 1}
+      - {type: Stark_linear_Sutton, coefficient: 1.0, n_upper: 4, n_lower: 1}
       - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
     wavelengths: {type: RH, nλ: 20, qwing: 100.0, qcore: 3.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
   - transition: [lev5, lev1]
@@ -48,7 +48,7 @@ radiative_bound_bound:
     broadening:
       - {type: Natural, value: 11500000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 1.0}
-      - {type: Stark_linear_Sutton_Sutton, coefficient: 1.0, n_upper: 5, n_lower: 1}
+      - {type: Stark_linear_Sutton, coefficient: 1.0, n_upper: 5, n_lower: 1}
       - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
     wavelengths: {type: RH, nλ: 20, qwing: 100.0, qcore: 3.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
   - transition: [lev3, lev2]
@@ -57,7 +57,7 @@ radiative_bound_bound:
     broadening:
       - {type: Natural, value: 99800000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 1.0}
-      - {type: Stark_linear_Sutton_Sutton, coefficient: 1.0, n_upper: 3, n_lower: 2}
+      - {type: Stark_linear_Sutton, coefficient: 1.0, n_upper: 3, n_lower: 2}
       - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
     wavelengths: {type: RH, nλ: 101, qwing: 250.0, qcore: 3.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: true}
   - transition: [lev4, lev2]
@@ -66,7 +66,7 @@ radiative_bound_bound:
     broadening:
       - {type: Natural, value: 30200000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 1.0}
-      - {type: Stark_linear_Sutton_Sutton, coefficient: 1.0, n_upper: 4, n_lower: 2}
+      - {type: Stark_linear_Sutton, coefficient: 1.0, n_upper: 4, n_lower: 2}
       - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
     wavelengths: {type: RH, nλ: 40, qwing: 250.0, qcore: 3.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
   - transition: [lev5, lev2]
@@ -75,7 +75,7 @@ radiative_bound_bound:
     broadening:
       - {type: Natural, value: 11500000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 1.0}
-      - {type: Stark_linear_Sutton_Sutton, coefficient: 1.0, n_upper: 5, n_lower: 2}
+      - {type: Stark_linear_Sutton, coefficient: 1.0, n_upper: 5, n_lower: 2}
       - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
     wavelengths: {type: RH, nλ: 40, qwing: 250.0, qcore: 3.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
   - transition: [lev4, lev3]
@@ -84,7 +84,7 @@ radiative_bound_bound:
     broadening:
       - {type: Natural, value: 30200000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 1.0}
-      - {type: Stark_linear_Sutton_Sutton, coefficient: 1.0, n_upper: 4, n_lower: 3}
+      - {type: Stark_linear_Sutton, coefficient: 1.0, n_upper: 4, n_lower: 3}
       - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
     wavelengths: {type: RH, nλ: 20, qwing: 30.0, qcore: 2.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
   - transition: [lev5, lev3]
@@ -93,7 +93,7 @@ radiative_bound_bound:
     broadening:
       - {type: Natural, value: 11500000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 1.0}
-      - {type: Stark_linear_Sutton_Sutton, coefficient: 1.0, n_upper: 5, n_lower: 3}
+      - {type: Stark_linear_Sutton, coefficient: 1.0, n_upper: 5, n_lower: 3}
       - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
     wavelengths: {type: RH, nλ: 20, qwing: 30.0, qcore: 2.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
   - transition: [lev5, lev4]
@@ -102,7 +102,7 @@ radiative_bound_bound:
     broadening:
       - {type: Natural, value: 11500000.0, unit: s^-1}
       - {type: Stark_quadratic, coefficient: 1.0}
-      - {type: Stark_linear_Sutton_Sutton, coefficient: 1.0, n_upper: 5, n_lower: 4}
+      - {type: Stark_linear_Sutton, coefficient: 1.0, n_upper: 5, n_lower: 4}
       - {type: VanderWaals_Unsold, h_coefficient: 1.0, he_coefficient: 1.0}
     wavelengths: {type: RH, nλ: 20, qwing: 30.0, qcore: 1.0, vmicro_char: {value: 2.5, unit: km / s}, asymmetric: false}
 
