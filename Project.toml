@@ -1,7 +1,7 @@
 name = "AtomicData"
 uuid = "6b77412b-f4b7-4495-8b9c-778517285205"
 authors = ["Tiago M. D. Pereira"]
-version = "0.1.5"
+version = "0.1.6"
 
 [deps]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
@@ -13,7 +13,7 @@ Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 
 [compat]
-Interpolations = "^0.14"
+Interpolations = "^0.15, ^0.14, ^0.13"
 PeriodicTable = "1"
 PhysicalConstants = "^0.2"
 Unitful = "1"

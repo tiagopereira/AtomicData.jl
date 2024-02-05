@@ -20,5 +20,6 @@ include("types.jl")
 include("read_utils.jl")
 include("partition_function.jl")
 include("abundances.jl")
+include("barklem.jl")
 
 end
