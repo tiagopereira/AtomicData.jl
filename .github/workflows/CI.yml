@@ -10,8 +10,8 @@ jobs:
       fail-fast: false
       matrix:
         version:
-          - '1.7'
-          - '1.8'
+          - '1.6'
+          - '1.10'
           - '1'
         os:
           - ubuntu-latest
@@ -21,9 +21,9 @@ jobs:
           - x64
           - x86
         exclude: 
-          # Test 1.4 only on Linux
-          - {os: 'windows-latest', version: '1.4'}
-          - {os: 'macOS-latest', version: '1.4'}
+          # Test 1.6 only on Linux
+          - {os: 'windows-latest', version: '1.6'}
+          - {os: 'macOS-latest', version: '1.6'}
           # Test x86 only on Linux
           - {os: 'windows-latest', arch: 'x86'}
           - {os: 'macOS-latest', arch: 'x86'}
